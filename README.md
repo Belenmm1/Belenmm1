@@ -15,16 +15,12 @@ You can explore the live version of my portfolio here:
 
 ## Key Projects 📂
 
-### 🏥 MediGest Pro
+### MediGest Pro
 A comprehensive hospital management system designed to optimize medical workflows.
 - **Features:** Patient records, appointment scheduling, and doctor management.
-- [View Project Demo](https://TU_USUARIO.github.io/gestsystem.html)
+- [View Project Demo](https://belenmm1.github.io/saludgest-health-management-system/)
 
-<img src="Screenshot 2026-04-27 082630.png" width="500" alt="MediGest Pro Preview">
 
-### 💻 Modern Developer Portfolio
-My personal site.
-<img src="Screenshot 2026-04-27 082637.png" width="500" alt="Portfolio Preview">
 
 ---
 
