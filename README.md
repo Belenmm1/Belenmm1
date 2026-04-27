@@ -26,6 +26,6 @@ A comprehensive hospital management system designed to optimize medical workflow
 
 ## Author 
 **Maricela Belén Milde**
-- GitHub: [@belen0010mm](https://github.com/belen0010mm)
+- GitHub: [@belen0010mm](https://github.com/Belenmm1)
 - LinkedIn: [Maricela Belén Milde] (www.linkedin.com/in/milde-belen-847560212)
 
