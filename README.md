@@ -1,30 +1,35 @@
-### Systems Analyst & Full Stack Developer | Analista de Sistemas
+# My Portfolio: Maricela Belen Milde 
 
-A professional dedicated to the analysis, design, and development of scalable software solutions. Specializing in **SaaS architectures** and high-efficiency **SQL database management**.
+This is my personal portfolio website where I showcase my projects, skills, and professional background as a Systems Analyst and Full-stack Developer.
 
-Profesional dedicada al análisis, diseño y desarrollo de soluciones de software escalables. Especializada en **arquitecturas SaaS** y gestión de **bases de datos SQL** de alta eficiencia.
----
+## Built With 
+- **HTML5 & CSS3** (Tailwind CSS)
+- **JavaScript**
+- **Google Fonts**
 
-### Technical Stack | Stack Técnico
-
-| Category | Skills |
-| :--- | :--- |
-| **Back-end** | Java, Python (Enterprise Logic) |
-| **Front-end** | HTML5, CSS3, Modern JavaScript |
-| **Data & DB** | SQL Specialist, Query Optimization, Database Architecture |
-| **Analysis** | Requirements Engineering, SaaS Workflow, Process Automation |
+## Live Demo 
+You can explore the live version of my portfolio here:
+[🔗 View My Live Portfolio](https://TU_USUARIO.github.io/) *(Reemplaza con tu link de GitHub)*
 
 ---
 
-### Professional Focus | Enfoque Profesional
+## Key Projects 📂
 
-* **🇺🇸 English:** Technical documentation and international standards.
-* **🇦🇷 Español:** Análisis de procesos complejos y arquitectura funcional.
-* **Goal:** Bridging the gap between complex business requirements and high-performance code.
+### 🏥 MediGest Pro
+A comprehensive hospital management system designed to optimize medical workflows.
+- **Features:** Patient records, appointment scheduling, and doctor management.
+- [View Project Demo](https://TU_USUARIO.github.io/gestsystem.html)
 
+<img src="Screenshot 2026-04-27 082630.png" width="500" alt="MediGest Pro Preview">
 
-<p align="center">
-  <i>"Transforming complex processes into functional code and scalable solutions."</i><br>
-  <i>"Transformando procesos complejos en código funcional y soluciones escalables."</i>
-</p>
+### 💻 Modern Developer Portfolio
+My personal site.
+<img src="Screenshot 2026-04-27 082637.png" width="500" alt="Portfolio Preview">
+
+---
+
+## Author 
+**Maricela Belén Milde**
+- GitHub: [@belen0010mm](https://github.com/belen0010mm)
+- LinkedIn: [Maricela Belén Milde](https://www.linkedin.com/in/maricela-belen-milde-524673238/)
 
