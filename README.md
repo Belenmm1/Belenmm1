@@ -9,7 +9,7 @@ This is my personal portfolio website where I showcase my projects, skills, and 
 
 ## My Portfolio
 You can explore the live version of my portfolio here:
-[View My Live Portfolio](belenmm1.github.io/)
+[View My Live Portfolio] (https://belenmm1.github.io/Belenmm1/)
 
 ---
 
