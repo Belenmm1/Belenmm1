@@ -23,9 +23,9 @@ System and data management specialist with a proven track record in overseeing d
 
 ### 📂 Featured Projects
 
-| Project | Stack | Description | Status |
-| :--- | :--- | :--- | :--- |
-| **[MEDIGEST](https://github.com/Belenmm1)** | Node.js, PostgreSQL, Redis | [cite_start]Bilingual health ecosystem with Triage algorithms and JWT. 
+| Project | Stack | Description |
+| :--- | :--- | :--- |
+| **[MEDIGEST](https://github.com/Belenmm1)** | Node.js, PostgreSQL, Redis | Bilingual health ecosystem with Triage algorithms and JWT. 
 | **DocuFlow** | Python, Bash, Linux | Intelligent pipeline for automated document flow and validation. | 🚧 In Progress |
 
 ---
