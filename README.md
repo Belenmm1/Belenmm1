@@ -1,53 +1,53 @@
 # MARICELA BELÉN MILDE 
-**Systems Analyst | Fullstack Developer |**
+**Systems Analyst | Fullstack Developer**
 
-System and data management specialist with experience overseeing data flows, backup management, and version control.
-Skilled in Python, Bash scripting, Git, and technical support for Windows and Linux environments.
-
----
-
-### 💻 Professional Summary
-* **Systems Analyst:** Proven ability to document and optimize technical processes.
-* **Data Management:** Expert in supervising inbound/outbound data flows and corporate information integrity.
-* **Bilingual Specialist:** Advanced/Bilingual English (Teaching Degree), facilitating technical communication in global environments.
+System and data management specialist with a proven track record in overseeing data flows, backup management, and version control. Skilled in **Python**, **Node.js**, and **Bash scripting**, with a focus on optimizing technical processes in bilingual environments.
 
 ---
 
-### Work Experience
+### Professional Summary
+* **Systems Analysis:** Expert in documenting and optimizing corporate workflows.
+* **Data Integrity:** Specialized in Python-based data validation and OpenSearch auditing.
+* **Bilingual Communication:** English Teaching Degree, enabling professional collaboration in global tech teams.
 
-#### **TDS Misiones** |Data Management & Technical Support (2024-Present).
-* Supervised data flows and developed Python scripts for data validation.
-* Managed version control and backup of digital assets using Git.
-* Provided technical support and administration on Windows servers.
+---
 
-#### **Dresses by Shine / Shine by NM** | Administrative Analysis (2020-2025).
-*Analyzed financial data flows using **OpenSearch** to audit transactional accuracy.
-* Automated administrative database backups with Python scripts.
-* Optimized workflows and resolved internal technical requirements.
+###  Work Experience
+
+| Company | Role | Period | Key Responsibilities |
+| :--- | :--- | :--- | :--- |
+| **TDS Misiones** | Data Management & Support | 2024 - Present | Python scripting for data validation and Git version control. |
+| **Dresses by Shine** | Administrative Analysis | 2020 - 2025 | Financial data auditing with OpenSearch and backup automation. |
 
 ---
 
 ### 📂 Featured Projects
 
-#### **[MEDIGEST (HEALTH SYSTEM)](https://github.com/Belenmm1)**
-* **Stack:** Node.js, Express, JavaScript ES6+, PostgreSQL, Redis.
-* Developed a bilingual ecosystem with 3,500+ lines of code.
-* Implemented real-time updates (WebSockets) and Triage algorithms with immutable logs.
-
-#### **DocuFlow** 🚧 *(Work in Progress)*
-* Intelligent pipeline for automated document management and validation.
-* **Stack:** Python, Bash scripting.
+| Project | Stack | Description | Status |
+| :--- | :--- | :--- | :--- |
+| **[MEDIGEST](https://github.com/Belenmm1)** | Node.js, PostgreSQL, Redis | [cite_start]Bilingual health ecosystem with Triage algorithms and JWT. 
+| **DocuFlow** | Python, Bash, Linux | Intelligent pipeline for automated document flow and validation. | 🚧 In Progress |
 
 ---
 
-### 🛠 Technical Skills
-* **Backend:** Node.js, Express, PostgreSQL, Redis, REST APIs, SQL.
-* **Core:** JavaScript ES6+, HTML5, CSS3, Python, Git.
-* **Analysis:** Expert Excel, Data Analysis, Requirements Management.
-* **Infrastructure:** Windows System Administration, OpenSearch.
+### Technical Skills
+
+| Category | Technologies |
+| :--- | :--- |
+| **Backend** | Node.js, Express, PostgreSQL, Redis, REST APIs, SQL. |
+| **Core & Scripting** | Python, JavaScript ES6+, Bash, Git. |
+| **Infrastructure** | Windows/Linux Server Admin, OpenSearch, Backup Policies. |
+| **Analysis** | Requirements Management, Data Auditing, Expert Excel. |
 
 ---
 
+###  Education & Certifications
+* **Systems Analyst** - IPESMI.
+* **English Teaching Degree** - Instituto Carlos Linneo.
+* **Python Programming** - Coderhouse.
+* **Fullstack Development** - Microverse.
+
+---
 
 
 ## Contact me
