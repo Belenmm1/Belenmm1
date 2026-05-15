@@ -1,58 +1,69 @@
-# MARICELA BELÉN MILDE 
-**Systems Analyst | Fullstack Developer**
+## 🚀 Featured Projects
 
-System and data management specialist with a proven track record in overseeing data flows, backup management, and version control. Skilled in **Python**, **Node.js**, and **Bash scripting**, with a focus on optimizing technical processes in bilingual environments.
+### 📄 DocuFlow — Intelligent Document Processing Platform
+AI-powered document processing platform designed for intelligent document analysis and workflow automation. Built with asynchronous architectures using Celery and Redis, integrating LangChain and GPT models to process PDFs, DOCX, and XLSX files.
 
----
+**Key Features**
+- Asynchronous file processing
+- AI-powered document analysis
+- Automated metadata extraction
+- FastAPI REST API
+- Dashboard monitoring
+- Scalable architecture
 
-### Professional Summary
-* **Systems Analysis:** Expert in documenting and optimizing corporate workflows.
-* **Data Integrity:** Specialized in Python-based data validation and OpenSearch auditing.
-* **Bilingual Communication:** English Teaching Degree, enabling professional collaboration in global tech teams.
+**Tech Stack**  
+Python • FastAPI • Celery • Redis • LangChain • OpenAI • PostgreSQL • Next.js • TypeScript
 
----
-
-###  Work Experience
-
-| Company | Role | Period | Key Responsibilities |
-| :--- | :--- | :--- | :--- |
-| **TDS Misiones** | Data Management & Support | 2024 - Present | Python scripting for data validation and Git version control. |
-| **Dresses by Shine** | Administrative Analysis | 2020 - 2025 | Financial data auditing with OpenSearch and backup automation. |
+[![DocuFlow](https://github-readme-stats.vercel.app/api/pin/?username=Belenmm1&repo=DocuFlow-proyect)](https://github.com/Belenmm1/DocuFlow-proyect)
 
 ---
 
-### 📂 Featured Projects
+### 🏥 MediGest — Healthcare Management System
+Healthcare management platform focused on streamlining patient administration and medical workflows. Designed with a clean architecture approach and scalable backend communication.
 
-| Project | Stack | Description |
-| :--- | :--- | :--- |
-| **[MEDIGEST](https://github.com/Belenmm1)** | Node.js, PostgreSQL, Redis | Bilingual health ecosystem with Triage algorithms and JWT. 
-| **DocuFlow** | Python, Bash, Linux | Intelligent pipeline for automated document flow and validation. | 🚧 In Progress |
+**Key Features**
+- Patient and data management
+- Structured workflow organization
+- Authentication system
+- Dashboard and management interface
+- Modular architecture
 
----
+**Tech Stack**  
+Next.js • TypeScript • TailwindCSS • API Integration
 
-### Technical Skills
-
-| Category | Technologies |
-| :--- | :--- |
-| **Backend** | Node.js, Express, PostgreSQL, Redis, REST APIs, SQL. |
-| **Core & Scripting** | Python, JavaScript ES6+, Bash, Git. |
-| **Infrastructure** | Windows/Linux Server Admin, OpenSearch, Backup Policies. |
-| **Analysis** | Requirements Management, Data Auditing, Expert Excel. |
+[![MediGest Frontend](https://github-readme-stats.vercel.app/api/pin/?username=Belenmm1&repo=medigest-MANAGMENT-SYSTEM)](https://github.com/Belenmm1/medigest-MANAGMENT-SYSTEM)
 
 ---
 
-###  Education & Certifications
-* **Systems Analyst** - IPESMI.
-* **English Teaching Degree** - Instituto Carlos Linneo.
-* **Python Programming** - Coderhouse.
-* **Fullstack Development** - Microverse.
+### ⚙️ MediGest Backend
+Backend services supporting MediGest functionalities through API endpoints and business logic implementation.
+
+**Key Features**
+- REST API
+- Authentication
+- Database integration
+- Modular services architecture
+- Backend scalability
+
+**Tech Stack**  
+Python • FastAPI • PostgreSQL • SQLAlchemy
+
+[![MediGest Backend](https://github-readme-stats.vercel.app/api/pin/?username=Belenmm1&repo=medigest-backend)](https://github.com/Belenmm1/medigest-backend)
 
 ---
 
+### 💻 Junior System
+Full-stack management system built to strengthen backend and frontend development skills through practical implementation of real-world workflows.
 
-## Contact me
+**Key Features**
+- CRUD operations
+- Authentication
+- Dashboard implementation
+- Responsive UI
+- API integration
 
-- 🌐 [Portfolio](https://belenmm1.github.io/Belenmm1/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/milde-belen-847560212)
-- 📧 belen0010mm@gmail.com
+**Tech Stack**  
+Java • Spring / Backend Technologies • SQL • Frontend Integration
+
+[![Junior System](https://github-readme-stats.vercel.app/api/pin/?username=Belenmm1&repo=JUNIOR-SYSTEM-)](https://github.com/Belenmm1/JUNIOR-SYSTEM-)
 
