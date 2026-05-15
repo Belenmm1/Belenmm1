@@ -1,7 +1,50 @@
-## 🚀 Featured Projects
+<h1 align="center">Hi I'm Belen</h1>
 
-### 📄 DocuFlow — Intelligent Document Processing Platform
-AI-powered document processing platform designed for intelligent document analysis and workflow automation. Built with asynchronous architectures using Celery and Redis, integrating LangChain and GPT models to process PDFs, DOCX, and XLSX files.
+<h3 align="center">
+Junior Systems Analyst & Software Developer focused on Backend Development, AI integrations, and scalable applications.
+</h3>
+
+<p align="center">
+Passionate about building intelligent systems, designing modern user experiences, and creating real-world solutions through code.
+</p>
+
+---
+
+### About Me
+
+- 🎓 Junior Systems Analyst
+- 💻 Building full-stack applications with modern technologies
+- 🤖 Interested in AI-powered systems and intelligent automation
+- 🚀 Currently building **DocuFlow**, an Intelligent Document Processing platform
+- 🌱 Learning more about scalable architectures, cloud workflows, and backend engineering
+- ⚡ Working with Python, FastAPI, TypeScript, and AI integrations
+
+---
+
+### Tech Stack
+
+**Languages**  
+Python • Java • TypeScript • JavaScript • SQL
+
+**Backend**  
+FastAPI • REST APIs • Celery • Redis • SQLAlchemy
+
+**Frontend**  
+Next.js • React • TailwindCSS
+
+**Databases**  
+PostgreSQL • MySQL
+
+**AI / Tools**  
+LangChain • OpenAI APIs • Git • Docker
+
+---
+
+## Featured Projects
+
+
+### DocuFlow — Intelligent Document Processing Platform
+An AI-powered document processing platform designed for intelligent document analysis and workflow automation. Built with asynchronous architectures using Celery and Redis, integrating LangChain and GPT models to process PDFs, DOCX, and XLSX files.
 
 **Key Features**
 - Asynchronous file processing
@@ -18,7 +61,7 @@ Python • FastAPI • Celery • Redis • LangChain • OpenAI • PostgreSQL 
 
 ---
 
-### 🏥 MediGest — Healthcare Management System
+### MediGest — Healthcare Management System
 Healthcare management platform focused on streamlining patient administration and medical workflows. Designed with a clean architecture approach and scalable backend communication.
 
 **Key Features**
@@ -35,7 +78,7 @@ Next.js • TypeScript • TailwindCSS • API Integration
 
 ---
 
-### ⚙️ MediGest Backend
+###MediGest Backend
 Backend services supporting MediGest functionalities through API endpoints and business logic implementation.
 
 **Key Features**
@@ -52,7 +95,7 @@ Python • FastAPI • PostgreSQL • SQLAlchemy
 
 ---
 
-### 💻 Junior System
+### Junior System
 Full-stack management system built to strengthen backend and frontend development skills through practical implementation of real-world workflows.
 
 **Key Features**
