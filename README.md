@@ -1,5 +1,4 @@
-# Maricela Belén Milde — Systems Analyst & Developer
-# MARICELA BELÉN MILDE 
+# Maricela Belén Milde 
 **Systems Analyst | Fullstack Developer |**
 
 **Oberá, Misiones, Argentina · Bilingüe ES/EN**
