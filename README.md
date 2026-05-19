@@ -1,25 +1,25 @@
 # Maricela Belén Milde
 **Systems Analyst | Full-Stack Developer | AI Enthusiast**
 
-**📍 Oberá, Misiones, Argentina · 🌎 Bilingual ES/EN**
+**Oberá, Misiones, Argentina · Bilingual ES/EN**
 
 Analista de Sistemas con foco en arquitectura de software, análisis de datos y desarrollo full-stack. Especializada en sistemas escalables, APIs seguras e integraciones de IA.
 
-Passionate about building intelligent systems, designing modern user experiences and creating real-world software solutions.
+Passionate about building intelligent systems, designing modern user experiences, and creating real-world software solutions.
 
 ---
 
 ## Contact
 
-- 🌐 Portfolio: https://belenmm1.github.io/Belenmm1/
-- 💼 LinkedIn: https://www.linkedin.com/in/milde-belen-847560212
-- 📧 Email: belen0010mm@gmail.com
+- Portfolio: https://belenmm1.github.io/Belenmm1/
+- LinkedIn: https://www.linkedin.com/in/milde-belen-847560212
+- Email: belen0010mm@gmail.com
 
 ---
 
 ##  Main Project — MediGest Pro
 
-**🌐 Live Demo:** https://medigest-managment-system-production.up.railway.app
+**Live Demo:** https://medigest-managment-system-production.up.railway.app
 
 Independent full-stack healthcare management platform built with secure backend architecture and real-world workflows.
 
@@ -70,7 +70,7 @@ Python • FastAPI • Celery • Redis • LangChain • PostgreSQL • Next.js
 
 ---
 
-### 💻 Junior System
+### Junior System
 
 Full-stack project built to strengthen backend architecture and software engineering skills.
 
@@ -81,7 +81,7 @@ Java • SQL • Full-stack development
 
 ---
 
-## 🛠 Technical Stack
+## Technical Stack
 
 | Area | Technologies |
 |---|---|
