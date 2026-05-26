@@ -17,7 +17,7 @@ Passionate about building intelligent systems, designing modern user experiences
 
 ---
 
-##  Main Project — MediGest Pro
+##  Main Project — MediGest Management 
 
 **Live Demo:** https://medigest-managment-system-production.up.railway.app
 
@@ -52,7 +52,7 @@ Patients · Appointments · Clinical History · Beds · Pharmacology · Audit ·
 
 ##  Featured Projects
 
-### DocuFlow *(Work in Progress)*
+### DocuFlow 
 
 Intelligent Document Processing (IDP) API built with FastAPI capable of asynchronously analyzing PDFs, DOCX and XLSX files using AI workflows.
 
@@ -95,23 +95,4 @@ Java • SQL • Full-stack development
 
 ---
 
-## Experience
 
-### TDS Misiones · Data Management & Technical Support *(2024–Present)*
-- Corporate data validation and integrity monitoring
-- Version control and backup management
-- Technical support and process optimization
-
-### Dresses by Shine / Shine by NM · Administrative Analysis *(2020–2025)*
-- Financial flow auditing
-- Backup automation with Python
-- Internal workflow optimization
-
----
-
-## Education
-
-- IPESMI — Systems Analyst *(In Progress)*
-- Coderhouse — Python Developer
-- Microverse — Full-Stack Developer
-- Instituto Linneo — Advanced English
