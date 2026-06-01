@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MediGest — Case Study · Belén Milde</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0d0d0f;--surface:#131316;--surface2:#1a1a1f;
+  --border:#252530;--border2:#333340;
+  --green:#3ecf8e;--green-dim:rgba(62,207,142,.08);--green-border:rgba(62,207,142,.25);
+  --blue:#4da6ff;--blue-dim:rgba(77,166,255,.07);--blue-border:rgba(77,166,255,.2);
+  --text:#e8e8f0;--text2:#8888a8;--text3:#4a4a68;
+  --mono:'IBM Plex Mono',monospace;
+  --sans:'IBM Plex Sans',sans-serif;
+  --serif:'IBM Plex Serif',serif;
+}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--text);font-family:var(--sans);font-size:15px;line-height:1.7;overflow-x:hidden;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.025;background-image:linear-gradient(var(--green) 1px,transparent 1px),linear-gradient(90deg,var(--green) 1px,transparent 1px);background-size:48px 48px;}
+
+/* NAV */
+nav{position:sticky;top:0;z-index:100;background:rgba(13,13,15,.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:0 2rem;height:52px;display:flex;align-items:center;justify-content:space-between;}
+.nav-left{display:flex;align-items:center;gap:16px}
+.nav-back{font-family:var(--mono);font-size:11px;color:var(--text3);text-decoration:none;letter-spacing:.05em;transition:color .2s;}
+.nav-back:hover{color:var(--green)}
+.nav-sep{color:var(--border2);font-family:var(--mono);font-size:11px}
+.nav-crumb{font-family:var(--mono);font-size:11px;color:var(--text3);letter-spacing:.04em}
+.nav-right{display:flex;align-items:center;gap:12px}
+.nav-badge{font-family:var(--mono);font-size:10px;letter-spacing:.06em;border:1px solid var(--green-border);color:var(--green);padding:3px 10px;border-radius:3px;background:var(--green-dim);}
+.nav-status{display:flex;align-items:center;gap:6px;font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:.04em;}
+.status-dot{width:6px;height:6px;border-radius:50%;background:var(--green);animation:pulse 2s infinite;}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+
+/* LANG SWITCHER */
+.lang-switch{display:flex;border:1px solid var(--border2);border-radius:4px;overflow:hidden;font-family:var(--mono);font-size:10px;letter-spacing:.06em;}
+.lang-btn{padding:4px 10px;cursor:pointer;background:transparent;border:none;color:var(--text3);transition:all .15s;text-transform:uppercase;}
+.lang-btn:hover{color:var(--text)}
+.lang-btn.active{background:var(--green);color:#0d0d0f;font-weight:500;}
+
+/* HERO */
+.hero{position:relative;z-index:1;max-width:900px;margin:0 auto;padding:5rem 2rem 4rem;border-bottom:1px solid var(--border);}
+.hero-eyebrow{display:flex;align-items:center;gap:12px;font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--blue);margin-bottom:2rem;}
+.hero-eyebrow::before{content:'';display:block;width:24px;height:1px;background:var(--blue);opacity:.5;}
+.hero-id{font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:.08em;margin-bottom:.5rem;}
+.hero h1{font-family:var(--serif);font-size:clamp(2.4rem,5.5vw,4rem);font-weight:500;line-height:1.1;letter-spacing:-.02em;margin-bottom:.5rem;color:var(--text);}
+.hero h1 em{font-style:italic;color:var(--green);}
+.hero-subtitle{font-family:var(--mono);font-size:12px;color:var(--text3);letter-spacing:.06em;margin-bottom:2rem;text-transform:uppercase;}
+.hero-desc{font-size:.975rem;color:var(--text2);max-width:540px;line-height:1.7;margin-bottom:2.5rem;}
+.hero-meta-row{display:grid;grid-template-columns:repeat(4,auto);width:fit-content;border:1px solid var(--border);border-radius:6px;overflow:hidden;margin-bottom:2.5rem;}
+.meta-cell{padding:10px 20px;border-right:1px solid var(--border);}
+.meta-cell:last-child{border-right:none}
+.meta-label{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);display:block;margin-bottom:3px;}
+.meta-val{font-family:var(--mono);font-size:12px;color:var(--text);font-weight:500;}
+.meta-val a{color:var(--green);text-decoration:none}
+.meta-val a:hover{text-decoration:underline}
+.hero-ctas{display:flex;gap:10px;flex-wrap:wrap}
+.btn{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:9px 20px;border-radius:4px;text-decoration:none;transition:all .15s;display:inline-flex;align-items:center;gap:8px;}
+.btn-primary{background:var(--green);color:#0d0d0f;border:1px solid var(--green);font-weight:500;}
+.btn-primary:hover{background:#5adfaa;transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--text2);border:1px solid var(--border2);}
+.btn-ghost:hover{border-color:var(--text2);color:var(--text)}
+
+/* STATS */
+.stats{position:relative;z-index:1;max-width:900px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);border-left:1px solid var(--border);border-right:1px solid var(--border);border-bottom:1px solid var(--border);}
+.stat{padding:1.5rem;text-align:center;border-right:1px solid var(--border);position:relative;overflow:hidden;}
+.stat::after{content:'';position:absolute;bottom:0;left:0;right:0;height:2px;background:var(--green);opacity:0;transition:opacity .3s;}
+.stat:hover::after{opacity:1}
+.stat:last-child{border-right:none}
+.stat-val{font-family:var(--mono);font-size:1.8rem;font-weight:500;color:var(--green);display:block;line-height:1;margin-bottom:6px;}
+.stat-label{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);}
+
+/* CONTENT */
+.content{max-width:900px;margin:0 auto;padding:0 2rem;position:relative;z-index:1}
+
+/* SECTION */
+.section{padding:4rem 0;border-bottom:1px solid var(--border);display:grid;grid-template-columns:160px 1fr;gap:3rem;}
+.section-aside{position:sticky;top:66px;align-self:start;}
+.section-index{font-family:var(--mono);font-size:9px;color:var(--text3);letter-spacing:.1em;display:block;margin-bottom:5px;}
+.section-tag{font-family:var(--mono);font-size:10px;color:var(--blue);letter-spacing:.07em;text-transform:uppercase;}
+.section-body h2{font-family:var(--serif);font-size:clamp(1.4rem,2.8vw,1.9rem);font-weight:500;line-height:1.2;letter-spacing:-.01em;margin-bottom:1.25rem;color:var(--text);}
+.section-body p{color:var(--text2);font-size:.94rem;margin-bottom:.9rem;}
+.section-body p:last-child{margin-bottom:0}
+.section-body strong{color:var(--text);font-weight:500;}
+
+/* BLOCKS */
+.clinical-quote{border-left:2px solid var(--blue);background:var(--blue-dim);padding:1rem 1.25rem;margin:1.5rem 0;border-radius:0 4px 4px 0;}
+.clinical-quote p{font-family:var(--serif);font-style:italic;color:var(--text);font-size:1rem;margin:0;line-height:1.6;}
+.terminal-quote{border-left:2px solid var(--green);background:var(--green-dim);padding:1rem 1.25rem;margin:1.5rem 0;border-radius:0 4px 4px 0;}
+.terminal-quote p{font-family:var(--mono);font-size:.88rem;color:var(--text);margin:0;line-height:1.6;}
+.terminal-quote p::before{content:'> ';color:var(--green)}
+
+/* DECISIONS */
+.decision-table{border:1px solid var(--border);border-radius:6px;overflow:hidden;margin:1.5rem 0;}
+.dt-header{display:grid;grid-template-columns:1fr 1fr;background:var(--surface2);border-bottom:1px solid var(--border);}
+.dt-col-head{font-family:var(--mono);font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:var(--text3);padding:8px 14px;border-right:1px solid var(--border);}
+.dt-col-head:last-child{border-right:none}
+.dt-row{display:grid;grid-template-columns:1fr 1fr;border-bottom:1px solid var(--border);}
+.dt-row:last-child{border-bottom:none}
+.dt-chosen{padding:11px 14px;font-size:.87rem;line-height:1.5;background:rgba(62,207,142,.04);color:var(--text);border-right:1px solid var(--border);}
+.dt-chosen::before{content:'✓ ';font-family:var(--mono);font-size:10px;color:var(--green);}
+.dt-disc{padding:11px 14px;font-size:.87rem;line-height:1.5;background:var(--surface);color:var(--text3);}
+.dt-disc::before{content:'✗ ';font-family:var(--mono);font-size:10px;color:var(--text3);}
+
+/* ARCH */
+.arch-diagram{border:1px solid var(--border);border-radius:6px;overflow:hidden;margin:1.5rem 0;}
+.arch-layer{display:flex;align-items:flex-start;border-bottom:1px solid var(--border);}
+.arch-layer:last-child{border-bottom:none}
+.arch-name{font-family:var(--mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--blue);padding:12px 14px;min-width:110px;border-right:1px solid var(--border);background:var(--blue-dim);display:flex;align-items:center;}
+.arch-pills{display:flex;flex-wrap:wrap;gap:6px;padding:10px 14px;align-items:center;}
+.arch-pill{font-family:var(--mono);font-size:10px;border:1px solid var(--border2);border-radius:3px;padding:3px 10px;color:var(--text2);background:var(--surface);}
+.arch-pill.core{border-color:var(--green-border);color:var(--green);background:var(--green-dim);}
+.arch-arrow{font-family:var(--mono);font-size:11px;color:var(--text3);padding:5px 14px 5px 124px;border-bottom:1px solid var(--border);}
+
+/* LEARNINGS */
+.learnings{margin:1.5rem 0;display:grid;gap:1px;background:var(--border);border:1px solid var(--border);border-radius:6px;overflow:hidden;}
+.learning{display:flex;gap:16px;padding:14px 16px;background:var(--surface);transition:background .2s;}
+.learning:hover{background:var(--surface2)}
+.l-num{font-family:var(--mono);font-size:10px;color:var(--green);padding-top:3px;min-width:22px;letter-spacing:.04em;}
+.l-text{font-size:.9rem;color:var(--text2);line-height:1.6;}
+.l-text strong{color:var(--text);font-weight:500;}
+
+/* STACK */
+.stack-row{display:flex;flex-wrap:wrap;gap:6px;margin:1.25rem 0;}
+.s-pill{font-family:var(--mono);font-size:10px;letter-spacing:.03em;padding:4px 12px;border-radius:3px;border:1px solid var(--border2);color:var(--text3);transition:all .2s;}
+.s-pill:hover{border-color:var(--green-border);color:var(--green);}
+.s-pill.hi{border-color:var(--green-border);color:var(--green);background:var(--green-dim);}
+
+/* CTA */
+.cta-section{padding:5rem 0;text-align:center;position:relative;z-index:1;}
+.cta-section h2{font-family:var(--serif);font-size:clamp(1.8rem,3.5vw,2.5rem);font-weight:500;letter-spacing:-.02em;margin-bottom:.75rem;color:var(--text);}
+.cta-section p{font-family:var(--serif);font-style:italic;font-size:1rem;color:var(--text3);margin-bottom:2rem;}
+.cta-links{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;}
+
+/* FOOTER */
+footer{border-top:1px solid var(--border);padding:1.5rem 2rem;position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:10px;color:var(--text3);letter-spacing:.04em;}
+footer a{color:var(--text3);text-decoration:none;}
+footer a:hover{color:var(--green)}
+
+/* ANIM */
+.fade{opacity:0;transform:translateY(18px);transition:opacity .65s ease,transform .65s ease;}
+.fade.on{opacity:1;transform:none;}
+
+/* LANG TOGGLE */
+[data-en]{display:none}
+body.en [data-es]{display:none}
+body.en [data-en]{display:revert}
+
+@media(max-width:660px){
+  .section{grid-template-columns:1fr;gap:1.5rem;padding:2.5rem 0;}
+  .stats{grid-template-columns:repeat(2,1fr);}
+  .hero-meta-row{grid-template-columns:repeat(2,auto);}
+  nav{padding:0 1rem;}.hero{padding:3.5rem 1rem 3rem;}.content{padding:0 1rem;}
+  .nav-badge{display:none}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-left">
+    <a href="https://belenmm1.github.io/Belenmm1/" class="nav-back">← mbm.dev</a>
+    <span class="nav-sep">/</span>
+    <span class="nav-crumb">proyectos / medigest</span>
+  </div>
+  <div class="nav-right">
+    <span class="nav-badge">★ proyecto estrella</span>
+    <span class="nav-status"><span class="status-dot"></span><span data-es>activo</span><span data-en>live</span></span>
+    <div class="lang-switch">
+      <button class="lang-btn active" id="btn-es" onclick="setLang('es')">ES</button>
+      <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
+    </div>
+  </div>
+</nav>
+
+<div class="hero fade on">
+  <div class="hero-eyebrow">Hospital Information System · HIS · 2025–2026</div>
+  <div class="hero-id">// caso de estudio · 001</div>
+  <h1>MediGest —<br><em data-es>una meta que se convirtió en algo más.</em><em data-en>a goal that became something more.</em></h1>
+  <div class="hero-subtitle">
+    <span data-es>El resultado me sorprendió a mí primero.</span>
+    <span data-en>The result surprised me first.</span>
+  </div>
+  <p class="hero-desc">
+    <span data-es>Sistema de gestión hospitalaria completo — bilingüe, seguro, escalable — diseñado y construido por una sola persona. Desde el esquema de base de datos hasta la última interacción de UI.</span>
+    <span data-en>A complete hospital management system — bilingual, secure, scalable — designed and built by one person. From the database schema to the last UI interaction.</span>
+  </p>
+  <div class="hero-meta-row">
+    <div class="meta-cell">
+      <span class="meta-label"><span data-es>Rol</span><span data-en>Role</span></span>
+      <span class="meta-val"><span data-es>Arquitecta & Full-stack</span><span data-en>Architect & Full-stack</span></span>
+    </div>
+    <div class="meta-cell">
+      <span class="meta-label"><span data-es>Duración</span><span data-en>Timeline</span></span>
+      <span class="meta-val">2025 — <span data-es>presente</span><span data-en>present</span></span>
+    </div>
+    <div class="meta-cell">
+      <span class="meta-label"><span data-es>Estado</span><span data-en>Status</span></span>
+      <span class="meta-val" style="color:var(--green)">● <span data-es>Activo</span><span data-en>Active</span></span>
+    </div>
+    <div class="meta-cell">
+      <span class="meta-label">Demo</span>
+      <span class="meta-val"><a href="https://medigest-managment-system-production.up.railway.app/" target="_blank" rel="noopener">↗ Railway</a></span>
+    </div>
+  </div>
+  <div class="hero-ctas">
+    <a href="https://medigest-managment-system-production.up.railway.app/" target="_blank" rel="noopener" class="btn btn-primary">↗ Demo live</a>
+    <a href="https://github.com/belenmm1/medigest-MANAGMENT-SYSTEM" target="_blank" rel="noopener" class="btn btn-ghost">GitHub Frontend</a>
+    <a href="https://github.com/belenmm1/medigest-backend" target="_blank" rel="noopener" class="btn btn-ghost">GitHub Backend</a>
+  </div>
+</div>
+
+<div class="stats fade">
+  <div class="stat"><span class="stat-val">8</span><span class="stat-label" data-es>módulos en prod.</span><span class="stat-label" data-en>modules in prod.</span></div>
+  <div class="stat"><span class="stat-val">3.5k+</span><span class="stat-label" data-es>líneas backend</span><span class="stat-label" data-en>backend lines</span></div>
+  <div class="stat"><span class="stat-val">2</span><span class="stat-label" data-es>idiomas · desde día 1</span><span class="stat-label" data-en>languages · from day 1</span></div>
+  <div class="stat"><span class="stat-val">0</span><span class="stat-label" data-es>frameworks de UI</span><span class="stat-label" data-en>UI frameworks</span></div>
+</div>
+
+<div class="content">
+
+  <section class="section fade">
+    <div class="section-aside">
+      <span class="section-index">01 / 05</span>
+      <span class="section-tag" data-es>El origen</span>
+      <span class="section-tag" data-en>The origin</span>
+    </div>
+    <div class="section-body">
+      <h2>
+        <span data-es>Quería una meta real. No otro tutorial.</span>
+        <span data-en>I wanted a real goal. Not another tutorial.</span>
+      </h2>
+      <p>
+        <span data-es>Empecé MediGest con una idea clara: necesitaba una meta concreta donde volcar todo lo que estaba aprendiendo. No un ejercicio de curso, no un proyecto de práctica — algo con decisiones reales y consecuencias reales.</span>
+        <span data-en>I started MediGest with a clear idea: I needed a concrete goal where I could channel everything I was learning. Not a course exercise, not a practice project — something with real decisions and real consequences.</span>
+      </p>
+      <p>
+        <span data-es>El resultado fue bastante más grande de lo que imaginé cuando escribí el primer commit. Y eso, en retrospectiva, es exactamente lo que buscaba.</span>
+        <span data-en>The result ended up being much bigger than I imagined when I wrote the first commit. And that, in retrospect, is exactly what I was looking for.</span>
+      </p>
+      <div class="clinical-quote">
+        <p>
+          <span data-es>"Estoy satisfecha con lo que construí, y soy completamente consciente de que puede mejorar. Las dos cosas son ciertas al mismo tiempo."</span>
+          <span data-en>"I'm proud of what I built, and I'm fully aware it can be better. Both things are true at the same time."</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade">
+    <div class="section-aside">
+      <span class="section-index">02 / 05</span>
+      <span class="section-tag" data-es>Decisiones técnicas</span>
+      <span class="section-tag" data-en>Technical decisions</span>
+    </div>
+    <div class="section-body">
+      <h2>
+        <span data-es>Cada tecnología tiene una razón. No hay stack por default acá.</span>
+        <span data-en>Every technology has a reason. No default stack here.</span>
+      </h2>
+      <p>
+        <span data-es>Estas son las decisiones de mayor impacto en la arquitectura final — con las alternativas que descarté y por qué:</span>
+        <span data-en>These are the highest-impact decisions in the final architecture — with the alternatives I discarded and why:</span>
+      </p>
+      <div class="decision-table">
+        <div class="dt-header">
+          <div class="dt-col-head" data-es>Elegida</div>
+          <div class="dt-col-head" data-en>Chosen</div>
+          <div class="dt-col-head" data-es>Descartada · motivo</div>
+          <div class="dt-col-head" data-en>Discarded · reason</div>
+        </div>
+        <div class="dt-row">
+          <div class="dt-chosen">PostgreSQL</div>
+          <div class="dt-disc">
+            <span data-es>MongoDB — datos hospitalarios son relacionales por naturaleza. Paciente → turno → médico → historial. Un esquema flexible era una trampa.</span>
+            <span data-en>MongoDB — hospital data is relational by nature. Patient → appointment → doctor → history. A flexible schema was a trap.</span>
+          </div>
+        </div>
+        <div class="dt-row">
+          <div class="dt-chosen">Redis</div>
+          <div class="dt-disc">
+            <span data-es>Memcached — Redis ganó por estructuras de datos complejas y persistencia opcional. Con usuarios concurrentes, la diferencia importa.</span>
+            <span data-en>Memcached — Redis won for complex data structures and optional persistence. With concurrent users, the difference matters.</span>
+          </div>
+        </div>
+        <div class="dt-row">
+          <div class="dt-chosen">WebSockets</div>
+          <div class="dt-disc">
+            <span data-es>Polling cada N segundos — inaceptable en entorno hospitalario. Una alerta tiene que llegar al instante.</span>
+            <span data-en>Polling every N seconds — unacceptable in a hospital environment. An alert has to arrive instantly.</span>
+          </div>
+        </div>
+        <div class="dt-row">
+          <div class="dt-chosen">Vanilla JS + CSS modular</div>
+          <div class="dt-disc">
+            <span data-es>React / Vue — overhead innecesario. Resultado: 87% HTML, 13% JS, carga instantánea, cero deuda de dependencias.</span>
+            <span data-en>React / Vue — unnecessary overhead. Result: 87% HTML, 13% JS, instant load, zero dependency debt.</span>
+          </div>
+        </div>
+        <div class="dt-row">
+          <div class="dt-chosen">JWT + refresh tokens</div>
+          <div class="dt-disc">
+            <span data-es>Sessions en servidor — escala mal. JWT stateless funciona en arquitectura distribuida desde el primer deploy.</span>
+            <span data-en>Server sessions — scales poorly. Stateless JWT works in distributed architecture from the first deploy.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade">
+    <div class="section-aside">
+      <span class="section-index">03 / 05</span>
+      <span class="section-tag" data-es>Arquitectura</span>
+      <span class="section-tag" data-en>Architecture</span>
+    </div>
+    <div class="section-body">
+      <h2>
+        <span data-es>8 módulos. Una sola fuente de verdad.</span>
+        <span data-en>8 modules. One single source of truth.</span>
+      </h2>
+      <p>
+        <span data-es>Cada módulo tiene su propia lógica de negocio, validación y capa de datos. Se comunican a través de una API REST central con middleware de seguridad en cada capa.</span>
+        <span data-en>Each module has its own business logic, validation, and data layer. They communicate through a central REST API with security middleware at every layer.</span>
+      </p>
+      <div class="arch-diagram">
+        <div class="arch-layer">
+          <div class="arch-name" data-es>Cliente</div>
+          <div class="arch-name" data-en>Client</div>
+          <div class="arch-pills"><span class="arch-pill">HTML5</span><span class="arch-pill">Vanilla JS</span><span class="arch-pill">CSS Modular</span><span class="arch-pill">IBM Plex</span></div>
+        </div>
+        <div class="arch-arrow">↕ fetch / WebSocket</div>
+        <div class="arch-layer">
+          <div class="arch-name">API REST</div>
+          <div class="arch-pills"><span class="arch-pill core">Node.js</span><span class="arch-pill core">Express</span><span class="arch-pill">Helmet</span><span class="arch-pill">Pino</span><span class="arch-pill">rate limit</span></div>
+        </div>
+        <div class="arch-arrow">
+          <span data-es>↕ auth JWT · audit log · validación</span>
+          <span data-en>↕ JWT auth · audit log · validation</span>
+        </div>
+        <div class="arch-layer">
+          <div class="arch-name" data-es>Módulos</div>
+          <div class="arch-name" data-en>Modules</div>
+          <div class="arch-pills">
+            <span class="arch-pill" data-es>Pacientes</span><span class="arch-pill" data-en>Patients</span>
+            <span class="arch-pill" data-es>Turnos</span><span class="arch-pill" data-en>Appointments</span>
+            <span class="arch-pill" data-es>Médicos</span><span class="arch-pill" data-en>Doctors</span>
+            <span class="arch-pill" data-es>Roles</span><span class="arch-pill" data-en>Roles</span>
+            <span class="arch-pill" data-es>Comunicación</span><span class="arch-pill" data-en>Communication</span>
+            <span class="arch-pill core" data-es>Auditoría</span><span class="arch-pill core" data-en>Audit</span>
+            <span class="arch-pill">Auth</span>
+            <span class="arch-pill">Config</span>
+          </div>
+        </div>
+        <div class="arch-arrow">↕</div>
+        <div class="arch-layer">
+          <div class="arch-name" data-es>Datos</div>
+          <div class="arch-name" data-en>Data</div>
+          <div class="arch-pills"><span class="arch-pill core">PostgreSQL</span><span class="arch-pill core">Redis</span></div>
+        </div>
+        <div class="arch-arrow">↕</div>
+        <div class="arch-layer">
+          <div class="arch-name">Infra</div>
+          <div class="arch-pills">
+            <span class="arch-pill">Railway</span>
+            <span class="arch-pill" data-es>logs inmutables</span><span class="arch-pill" data-en>immutable logs</span>
+            <span class="arch-pill" data-es>backup auto</span><span class="arch-pill" data-en>auto backup</span>
+          </div>
+        </div>
+      </div>
+      <p>
+        <span data-es>El módulo de auditoría merece mención aparte: cada operación crítica genera un <strong>log inmutable</strong> con timestamp, usuario, acción y estado anterior/posterior. No se edita. No se borra.</span>
+        <span data-en>The audit module deserves special mention: every critical operation generates an <strong>immutable log</strong> with timestamp, user, action, and before/after state. It can't be edited. It can't be deleted.</span>
+      </p>
+      <div class="stack-row">
+        <span class="s-pill hi">Node.js</span><span class="s-pill hi">PostgreSQL</span><span class="s-pill hi">Redis</span><span class="s-pill hi">WebSockets</span><span class="s-pill hi">JWT</span><span class="s-pill">Express</span><span class="s-pill">Helmet</span><span class="s-pill">Pino</span><span class="s-pill">Vanilla JS</span><span class="s-pill">CSS Modular</span><span class="s-pill">Railway</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade">
+    <div class="section-aside">
+      <span class="section-index">04 / 05</span>
+      <span class="section-tag" data-es>Lo que más me enorgullece</span>
+      <span class="section-tag" data-en>What I'm most proud of</span>
+    </div>
+    <div class="section-body">
+      <h2>
+        <span data-es>Salí de mi zona de confort. Y quedó bien.</span>
+        <span data-en>I stepped out of my comfort zone. And it worked.</span>
+      </h2>
+      <p>
+        <span data-es>De lo que más orgullosa estoy es de la estética del dashboard. No es mi zona natural — soy más de backend, de datos, de arquitectura. Pero el resultado me sorprendió. Cuando algo que no sabías que podías hacer queda bien, querés seguir haciéndolo.</span>
+        <span data-en>What I'm most proud of is the dashboard's aesthetic. It's not my natural zone — I'm more of a backend, data, architecture person. But the result surprised me. When something you didn't know you could do turns out well, you want to keep doing it.</span>
+      </p>
+      <p>
+        <span data-es>No puedo esperar a trabajar en más sistemas como este.</span>
+        <span data-en>I can't wait to work on more systems like this one.</span>
+      </p>
+      <div class="terminal-quote">
+        <p>
+          <span data-es>"Construir todo desde cero te obliga a entender cada decisión. No hay magia. Solo arquitectura."</span>
+          <span data-en>"Building everything from scratch forces you to understand every decision. No magic. Just architecture."</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section fade" style="border-bottom:none">
+    <div class="section-aside">
+      <span class="section-index">05 / 05</span>
+      <span class="section-tag" data-es>Aprendizajes</span>
+      <span class="section-tag" data-en>Learnings</span>
+    </div>
+    <div class="section-body">
+      <h2>
+        <span data-es>Lo más valioso no siempre está en el código.</span>
+        <span data-en>The most valuable lessons aren't always in the code.</span>
+      </h2>
+      <div class="learnings">
+        <div class="learning">
+          <span class="l-num">01</span>
+          <p class="l-text">
+            <span data-es><strong>La conexión con la base de datos me tuvo días trabada.</strong> El problema tenía una solución que en retrospectiva era obvia. Aprendí que los bugs más frustrantes casi nunca son los más complejos — y que quedarse estancada es parte del proceso, no una señal de que algo está mal.</span>
+            <span data-en><strong>The database connection had me stuck for days.</strong> The problem had a solution that was obvious in retrospect. I learned that the most frustrating bugs are almost never the most complex — and that getting stuck is part of the process, not a sign that something is wrong.</span>
+          </p>
+        </div>
+        <div class="learning">
+          <span class="l-num">02</span>
+          <p class="l-text">
+            <span data-es><strong>Diseñar el esquema primero.</strong> Antes de escribir una sola ruta de API. Los datos hospitalarios son profundamente relacionales — empezar por ahí evitó semanas de refactoring.</span>
+            <span data-en><strong>Design the schema first.</strong> Before writing a single API route. Hospital data is deeply relational — starting there avoided weeks of refactoring.</span>
+          </p>
+        </div>
+        <div class="learning">
+          <span class="l-num">03</span>
+          <p class="l-text">
+            <span data-es><strong>La seguridad no se agrega al final.</strong> Helmet, rate limiting y logs de auditoría estuvieron en el primer PR. Retrofitear seguridad en un sistema vivo es costoso y frágil.</span>
+            <span data-en><strong>Security isn't added at the end.</strong> Helmet, rate limiting and audit logs were in the first PR. Retrofitting security into a live system is costly and fragile.</span>
+          </p>
+        </div>
+        <div class="learning">
+          <span class="l-num">04</span>
+          <p class="l-text">
+            <span data-es><strong>Bilingüe como decisión de arquitectura.</strong> No es traducción — son claves de contenido, no strings hardcodeados. Cambié el enfoque en la semana dos y valió cada hora.</span>
+            <span data-en><strong>Bilingual as an architecture decision.</strong> It's not translation — it's content keys, not hardcoded strings. I changed the approach in week two and it was worth every hour.</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta-section fade">
+    <h2>
+      <span data-es>¿Querés ver el código?</span>
+      <span data-en>Want to see the code?</span>
+    </h2>
+    <p>
+      <span data-es>"Empezó como una meta. Terminó siendo algo de lo que me enorgullezco."</span>
+      <span data-en>"It started as a goal. It ended up being something I'm proud of."</span>
+    </p>
+    <div class="cta-links">
+      <a href="https://medigest-managment-system-production.up.railway.app/" target="_blank" rel="noopener" class="btn btn-primary">↗ Demo live</a>
+      <a href="https://github.com/belenmm1/medigest-MANAGMENT-SYSTEM" target="_blank" rel="noopener" class="btn btn-ghost">Frontend →</a>
+      <a href="https://github.com/belenmm1/medigest-backend" target="_blank" rel="noopener" class="btn btn-ghost">Backend →</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <span>© 2026 Maricela Belén Milde — <span data-es>Hecho con 💻 en Oberá, Misiones</span><span data-en>Built with 💻 in Oberá, Misiones</span></span>
+  <a href="https://belenmm1.github.io/Belenmm1/">← <span data-es>volver al portfolio</span><span data-en>back to portfolio</span></a>
+</footer>
+
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{
+  if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}
+}),{threshold:.08});
+document.querySelectorAll('.fade').forEach(el=>io.observe(el));
+
+function setLang(lang){
+  document.body.classList.toggle('en', lang==='en');
+  document.getElementById('btn-es').classList.toggle('active', lang==='es');
+  document.getElementById('btn-en').classList.toggle('active', lang==='en');
+  document.documentElement.lang = lang;
+  localStorage.setItem('cs-lang', lang);
+}
+const saved = localStorage.getItem('cs-lang');
+if(saved) setLang(saved);
+</script>
+</body>
+</html>
