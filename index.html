@@ -283,6 +283,37 @@ footer{display:block;padding:0 3rem 2rem}
 .name-char{display:inline-block;transition:transform .35s cubic-bezier(.34,1.56,.64,1),color .25s;cursor:default}
 .name-char:hover{transform:translateY(-5px) rotate(-4deg);color:var(--accent3) !important;-webkit-text-fill-color:var(--accent3) !important}
 #terminal-overlay.hidden{opacity:0;visibility:hidden;pointer-events:none}
+
+.about-photo-wrap{
+  position:relative;width:220px;height:220px;flex-shrink:0;
+  margin-bottom:1.5rem;
+}
+.about-photo-glow{
+  position:absolute;inset:-24px;border-radius:50%;
+  background:radial-gradient(ellipse,rgba(255,45,130,0.26) 0%,rgba(200,10,80,0.10) 50%,transparent 70%);
+  animation:orb-breathe 5s ease-in-out infinite;
+  pointer-events:none;
+}
+.about-photo-ring{
+  position:absolute;inset:-4px;border-radius:50%;
+  background:linear-gradient(135deg,var(--accent2),var(--accent),var(--pink-light),var(--accent2));
+  background-size:300% 300%;
+  animation:gradient-spin 4s linear infinite;
+  padding:3px;
+}
+@keyframes gradient-spin{0%{background-position:0% 50%}50%{background-position:100% 50%}100%{background-position:0% 50%}}
+.about-photo-ring-inner{
+  width:100%;height:100%;border-radius:50%;
+  background:var(--bg);
+  display:flex;align-items:center;justify-content:center;
+}
+.about-photo{
+  width:214px;height:214px;border-radius:50%;
+  object-fit:cover;object-position:center 30%;
+  display:block;
+  transition:transform 0.3s ease;
+}
+.about-photo-wrap:hover .about-photo{transform:scale(1.04)}
 </style>
 </head>
 <body>
@@ -413,6 +444,14 @@ footer{display:block;padding:0 3rem 2rem}
       <div class="about-quote" id="about-quote-text"><em>"</em> Construyo sistemas que importan — donde cada línea de código tiene propósito, cada dato tiene dueño, y cada decisión de diseño tiene consecuencias reales. <em>"</em></div>
     </div>
     <div class="reveal">
+      <div class="about-photo-wrap" id="about-photo-el" style="margin:0 auto 2rem auto">
+        <div class="about-photo-glow"></div>
+        <div class="about-photo-ring">
+          <div class="about-photo-ring-inner">
+            <img src="curriculumimage.jpeg" alt="Maricela Belen Milde" class="about-photo">
+          </div>
+        </div>
+      </div>
       <div class="skills-group"><div class="skills-group-label" data-i18n="about.coretech">Core Tech</div><div class="chips"><span class="chip accent"><i class="devicon-javascript-plain di"></i>JavaScript ES6+</span><span class="chip accent"><i class="devicon-python-plain di"></i>Python</span><span class="chip"><i class="devicon-html5-plain di"></i>HTML5</span><span class="chip"><i class="devicon-css3-plain di"></i>CSS3</span><span class="chip"><i class="devicon-git-plain di"></i>Git / GitHub</span><span class="chip">SDLC</span><span class="chip">Node.js</span><span class="chip"><i class="devicon-express-original di"></i>Express</span></div></div>
       <div class="skills-group"><div class="skills-group-label" data-i18n="about.db">Bases de datos & Backend</div><div class="chips"><span class="chip">PostgreSQL</span><span class="chip">Redis</span><span class="chip"><i class="devicon-azuresqldatabase-plain di"></i>SQL</span><span class="chip">Access</span><span class="chip">JWT Auth</span><span class="chip">WebSockets</span><span class="chip">REST APIs</span></div></div>
       <div class="skills-group"><div class="skills-group-label" data-i18n="about.office">Office & Datos</div><div class="chips"><span class="chip">Excel (experto)</span><span class="chip">Access DB</span><span class="chip">Word avanzado</span><span class="chip">Análisis de datos</span><span class="chip">Auditoría</span></div></div>
@@ -955,6 +994,19 @@ document.addEventListener('keydown',e=>{if(e.key==='Escape')closeEgg()});
       }
     });
   },{passive:true});
+})();
+
+(function(){
+  var img=document.getElementById('about-photo-el');
+  if(!img)return;
+  document.addEventListener('mousemove',function(e){
+    var rect=img.getBoundingClientRect();
+    var cx=rect.left+rect.width/2;
+    var cy=rect.top+rect.height/2;
+    var dx=(e.clientX-cx)/window.innerWidth;
+    var dy=(e.clientY-cy)/window.innerHeight;
+    img.style.transform='translate('+dx*10+'px,'+dy*8+'px)';
+  });
 })();
 
 </script>
