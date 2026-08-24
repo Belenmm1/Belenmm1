@@ -39,59 +39,37 @@ My work sits at the intersection of:
 
 ## ୨୧ ─── ♡ `professional experience` ♡ ─── ୨୧
 
-My professional experience has allowed me to work across **data management,
-technical support, business operations and technology**, gradually moving
-towards more technical and systems-oriented responsibilities.
+My professional experience has allowed me to grow from **data management and business operations into more technical and systems-oriented work**, combining technology with a strong understanding of how businesses actually operate.
 
 ### 🎀 Data Management & Technical Support
 
-Working with operational data, internal systems, technical support and
-process improvement, with a focus on keeping information accurate,
-structured and useful.
+Experience working with **operational data, internal systems and technical support**, helping maintain accurate information and resolve day-to-day technology and process-related issues.
 
-### 🌸 Business & Administrative Operations
+### 🌸 Business Operations & Administrative Systems
 
-Experience working with business processes, operational information,
-ERP systems and day-to-day administrative workflows.
+Experience working with **business processes, operational information and ERP systems**, gaining a practical understanding of how technology supports everyday business operations.
 
-### ☁️ Automation & Systems
+### ☁️ Automation & Process Improvement
 
-Building automations, integrations and digital workflows to reduce
-repetitive work and improve internal processes.
+Identifying repetitive or inefficient workflows and exploring ways to **automate, integrate and simplify processes** using tools such as `n8n`, APIs, webhooks and custom solutions.
 
 ### 📊 Data & Business Intelligence
 
-Working with structured data, SQL, reporting and operational metrics
-to transform business information into something useful for decision-making.
+Working with **SQL, databases, structured data, reporting and operational metrics**, with a focus on transforming raw business information into something useful for analysis and decision-making.
 
-### 🦢 Software Development
+### 🦢 Software Development & Systems
 
-Developing backend services, APIs, databases and business applications,
-while continuing to grow as a Systems Analyst and Software Developer.
+Building **backend services, APIs, databases and business applications**, while applying systems analysis to understand requirements, structure information and design practical solutions.
 
-I enjoy taking something that is **messy, repetitive or scattered** and turning it into a structured digital solution.
+### ♡ My professional approach
 
-That can mean designing a database, building an API, automating a workflow, developing a business application, analyzing operational data or turning an idea into a working SaaS product.
+I don't see technology as something isolated from the business.
 
-I'm especially interested in technology when it has a **clear purpose behind it**:
+I like understanding **why a process exists, where information comes from, how different systems connect and what could be improved** before deciding what technology should be used.
 
-> **understand the problem → structure the information → build the solution → automate what makes sense → turn data into something useful**
+> **understand the process → identify the problem → structure the information → design the solution → build & automate → measure the result**
 
-### ♡ What I bring
-
-୨୧ **Systems thinking** — understanding how different parts of a business or application connect.
-
-୨୧ **Software development** — building backend services, APIs, databases and full applications.
-
-୨୧ **Automation** — identifying repetitive processes and turning them into reliable workflows.
-
-୨୧ **Data & BI** — transforming operational information into useful metrics and insights.
-
-୨୧ **Business perspective** — focusing on what a system actually needs to solve, not only how to code it.
-
-୨୧ **Product mindset** — thinking about users, workflows, usability and continuous improvement.
-
----
+This combination of **systems analysis, software development, data and business understanding** is the direction in which I'm continuing to grow professionally.
 
 # 🎀 ˚₊‧ ୨୧ `PRISMA` ୨୧ ‧₊˚ 🎀
 
