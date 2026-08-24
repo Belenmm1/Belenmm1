@@ -131,209 +131,280 @@ cash movement
 structured business data
       ↓
 reports & insights
-
-
+```
 
 The goal is:
 
-collect useful information → organize it → understand it → make better decisions
+**collect useful information → organize it → understand it → make better decisions**
 
-This approach also creates a foundation for future automation, analytics and AI-powered capabilities.
+This approach also creates a foundation for future **automation, analytics and AI-powered capabilities**.
 
-🎀 PRISMA · Technology
-<p align="center"> <img src="https://skillicons.dev/icons?i=react,nextjs,ts,postgres,supabase,vercel" /> </p> <div align="center">
+---
 
-React · Next.js · TypeScript
-PostgreSQL · Supabase · Vercel
+## 🎀 PRISMA · Technology
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,postgres,supabase,vercel" />
+</p>
+
+<div align="center">
+
+`React` · `Next.js` · `TypeScript`
+
+`PostgreSQL` · `Supabase` · `Vercel`
 
 <br>
 
-REST APIs · n8n · Webhooks · Git · Database Design
+`REST APIs` · `n8n` · `Webhooks` · `Git` · `Database Design`
 
 </div>
-୨୧ ─── ♡ VECTOR ♡ ─── ୨୧
-Technology · SaaS · Automation · BI · AI
 
-VECTOR is a technology initiative I'm developing around the idea of creating practical digital products for businesses in the NEA region of Argentina.
+---
 
-The vision is to combine software development with automation, data and artificial intelligence to create tools that solve specific operational problems.
+# ୨୧ ─── ♡ `VECTOR` ♡ ─── ୨୧
+
+### *Technology · SaaS · Automation · BI · AI*
+
+**VECTOR** is a technology initiative I'm developing around the idea of creating **practical digital products for businesses in the NEA region of Argentina**.
+
+The vision is to combine software development with automation, data and artificial intelligence to create tools that solve **specific operational problems**.
 
 <div align="center">
 
-🎀 VECTOR LAB
-Technology, experimentation & product development
+🎀 **VECTOR LAB**  
+*Technology, experimentation & product development*
 
-🌸 Vertical SaaS
-Industry-specific business software
+🌸 **Vertical SaaS**  
+*Industry-specific business software*
 
-📊 Business Intelligence
-Turning operational data into useful insights
+📊 **Business Intelligence**  
+*Turning operational data into useful insights*
 
-☁️ Automation
-Connecting systems and reducing repetitive work
+☁️ **Automation**  
+*Connecting systems and reducing repetitive work*
 
-🤖 AI
-Practical applications of intelligent technologies
+🤖 **AI**  
+*Practical applications of intelligent technologies*
 
 </div>
-♡ VECTOR's product ecosystem
+
+### ♡ VECTOR's product ecosystem
 
 VECTOR is being structured around different products and vertical solutions.
 
-PRISMA is the first vertical SaaS product, focused on:
+**PRISMA** is the first vertical SaaS product, focused on:
 
-Beauty · Aesthetics · Salons · Independent Professionals
+> **Beauty · Aesthetics · Salons · Independent Professionals**
 
 The broader vision is to create specialized systems for different industries while sharing a common philosophy:
 
-simple interfaces · centralized information · automation · useful data · better decisions
+**simple interfaces · centralized information · automation · useful data · better decisions**
 
-୨୧ Why VECTOR exists
+---
+
+## ୨୧ Why VECTOR exists
 
 Small and medium-sized businesses often have the information they need — but it is scattered across different tools.
 
-WhatsApp
-Spreadsheets
-Notebooks
-Separate payment records
-Manual processes
+<div align="center">
+
+`WhatsApp` · `Spreadsheets` · `Notebooks`  
+`Separate payment records` · `Manual processes`
+
+</div>
 
 The problem isn't always a lack of information.
 
-It's the lack of structure.
+**It's the lack of structure.**
 
 VECTOR aims to bridge that gap by building technology around the way businesses actually operate.
 
-୨୧ ─── ♡ selected projects ♡ ─── ୨୧
-🎀 MediGest · Hospital Information System
+---
 
-A complete hospital management system developed end-to-end as an individual project.
+# ୨୧ ─── ♡ `selected projects` ♡ ─── ୨୧
+
+## 🎀 MediGest · *Hospital Information System*
+
+A complete hospital management system developed **end-to-end as an individual project**.
 
 The project was designed to organize complex healthcare workflows through a centralized application with multiple interconnected modules.
 
-♡ Backend
+### ♡ Backend
 
-Node.js · Express · PostgreSQL · Redis · JWT · WebSockets
+`Node.js` · `Express` · `PostgreSQL` · `Redis` · `JWT` · `WebSockets`
 
-♡ Frontend
+### ♡ Frontend
 
-JavaScript ES6+ · HTML5 · CSS3
+`JavaScript ES6+` · `HTML5` · `CSS3`
 
-♡ Modules
+### ♡ Modules
 
-Patients · Appointments · Clinical History
-Beds · Pharmacology · Audit
-Authentication · Real-time Communications
+`Patients` · `Appointments` · `Clinical History`  
+`Beds` · `Pharmacology` · `Audit`  
+`Authentication` · `Real-time Communications`
 
-<p align="left"> <a href="https://github.com/Belenmm1/medigest-backend"> <img src="https://img.shields.io/badge/♡%20backend-D85A7F?style=flat-square&logo=github&logoColor=FFF1F5"/> </a> <a href="https://github.com/Belenmm1/medigest-MANAGMENT-SYSTEM"> <img src="https://img.shields.io/badge/♡%20frontend-FBA4BD?style=flat-square&logo=github&logoColor=372629"/> </a> <a href="https://medigest-managment-system-production.up.railway.app/"> <img src="https://img.shields.io/badge/♡%20live%20demo-372629?style=flat-square&logo=googlechrome&logoColor=FBA4BD"/> </a> </p>
-🌸 DocuFlow · Document Management & Workflow System
+<p align="left">
 
-A document management platform focused on automated workflows, version control and traceability.
+<a href="https://github.com/Belenmm1/medigest-backend">
+<img src="https://img.shields.io/badge/♡%20backend-D85A7F?style=flat-square&logo=github&logoColor=FFF1F5"/>
+</a>
+
+<a href="https://github.com/Belenmm1/medigest-MANAGMENT-SYSTEM">
+<img src="https://img.shields.io/badge/♡%20frontend-FBA4BD?style=flat-square&logo=github&logoColor=372629"/>
+</a>
+
+<a href="https://medigest-managment-system-production.up.railway.app/">
+<img src="https://img.shields.io/badge/♡%20live%20demo-372629?style=flat-square&logo=googlechrome&logoColor=FBA4BD"/>
+</a>
+
+</p>
+
+---
+
+## 🌸 DocuFlow · *Document Management & Workflow System*
+
+A document management platform focused on **automated workflows, version control and traceability**.
 
 The project explores how structured digital workflows can replace fragmented manual document processes while maintaining visibility and control.
 
-♡ Technology
+### ♡ Technology
 
-Node.js · JavaScript · PostgreSQL · REST API
+`Node.js` · `JavaScript` · `PostgreSQL` · `REST API`
 
-<p align="left"> <a href="https://github.com/Belenmm1/DocuFlow-proyect"> <img src="https://img.shields.io/badge/♡%20repository-D85A7F?style=flat-square&logo=github&logoColor=FFF1F5"/> </a> </p>
-🎀 ─── ♡ tech stack ♡ ─── 🎀
+<p align="left">
+
+<a href="https://github.com/Belenmm1/DocuFlow-proyect">
+<img src="https://img.shields.io/badge/♡%20repository-D85A7F?style=flat-square&logo=github&logoColor=FFF1F5"/>
+</a>
+
+</p>
+
+---
+
+# 🎀 ─── ♡ `tech stack` ♡ ─── 🎀
+
 <div align="center">
-Category	Skills & Tools
-Backend & APIs	<img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,express,postgres" height="30" />
-Python · FastAPI · Node.js · Express · REST APIs · WebSockets
-Frontend	<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css" height="30" />
-React · Next.js · TypeScript · JavaScript · HTML5 · CSS3
-Data & Automation	<img src="https://skillicons.dev/icons?i=postgres,mysql,python,docker" height="30" />
-SQL · PostgreSQL · MySQL · Data Analysis · BI · n8n
-AI & Intelligent Systems	LangChain · RAG · LLMs
-DevOps & Tools	<img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel,supabase,postman" height="30" />
-Docker · Git · GitHub Actions · CI/CD · Vercel · Supabase · Postman
+
+| Category | Skills & Tools |
+| :--- | :--- |
+| **Backend & APIs** | <img src="https://skillicons.dev/icons?i=python,fastapi,nodejs,express,postgres" height="30" /> <br> `Python` · `FastAPI` · `Node.js` · `Express` · `REST APIs` · `WebSockets` |
+| **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css" height="30" /> <br> `React` · `Next.js` · `TypeScript` · `JavaScript` · `HTML5` · `CSS3` |
+| **Data & Automation** | <img src="https://skillicons.dev/icons?i=postgres,mysql,python,docker" height="30" /> <br> `SQL` · `PostgreSQL` · `MySQL` · `Data Analysis` · `BI` · `n8n` |
+| **AI & Intelligent Systems** | `LangChain` · `RAG` · `LLMs` |
+| **DevOps & Tools** | <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel,supabase,postman" height="30" /> <br> `Docker` · `Git` · `GitHub Actions` · `CI/CD` · `Vercel` · `Supabase` · `Postman` |
+
 </div>
-🌸 ─── ♡ what I like building ♡ ─── 🌸
-🎀 Business Applications
+
+---
+
+# 🌸 ─── ♡ `what I like building` ♡ ─── 🌸
+
+### 🎀 Business Applications
 
 Systems that make everyday operations simpler, more organized and easier to understand.
 
-♡ Backend & APIs
+### ♡ Backend & APIs
 
 Services, databases and integrations that provide the foundation for useful applications.
 
-୨୧ Automation
+### ୨୧ Automation
 
 Replacing repetitive manual workflows with reliable automated processes.
 
-📊 Data & Business Intelligence
+### 📊 Data & Business Intelligence
 
 Turning operational data into information that can support better decisions.
 
-☁️ SaaS Products
+### ☁️ SaaS Products
 
 Building software around real problems, real users and real workflows.
 
-🤖 AI & Intelligent Systems
+### 🤖 AI & Intelligent Systems
 
-Exploring practical applications of LLMs, RAG, LangChain and automation.
+Exploring practical applications of **LLMs, RAG, LangChain and automation**.
 
-୨୧ ─── ♡ github stats ♡ ─── ୨୧
-<div align="center"> <img height="160" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&bg_color=372629&title_color=FBA4BD&text_color=FFF1F5&icon_color=D85A7F&border_color=D85A7F&hide_border=false" /> <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&bg_color=372629&title_color=FBA4BD&text_color=FFF1F5&icon_color=D85A7F&border_color=D85A7F&hide_border=false" /> </div>
+---
+
+# ୨୧ ─── ♡ `github stats` ♡ ─── ୨୧
+
 <div align="center">
-୨୧ ─── ♡ education ♡ ─── ୨୧
 
-🎓 Systems Analyst
-IPESMI · Graduating 2026
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&bg_color=372629&title_color=FBA4BD&text_color=FFF1F5&icon_color=D85A7F&border_color=D85A7F&hide_border=false" />
 
-🐍 Python Programming
-Coderhouse
-
-💻 Full-Stack Development
-Microverse
-
-📚 English Teaching Degree
-Instituto Carlos Linneo
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&bg_color=372629&title_color=FBA4BD&text_color=FFF1F5&icon_color=D85A7F&border_color=D85A7F&hide_border=false" />
 
 </div>
-<div align="center"> <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-🎀 ─── ♡ how I like to work ♡ ─── 🎀
 
-understand the problem
-↓
-structure the information
-↓
-design the solution
-↓
-build the system
-↓
-automate what makes sense
-↓
-turn data into something useful
+---
+
+<div align="center">
+
+## ୨୧ ─── ♡ `education` ♡ ─── ୨୧
+
+🎓 **Systems Analyst**  
+*IPESMI · Graduating 2026*
+
+🐍 **Python Programming**  
+*Coderhouse*
+
+💻 **Full-Stack Development**  
+*Microverse*
+
+📚 **English Teaching Degree**  
+*Instituto Carlos Linneo*
+
+</div>
+
+---
+
+<div align="center">
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## 🎀 ─── ♡ `how I like to work` ♡ ─── 🎀
+
+**understand the problem**  
+↓  
+**structure the information**  
+↓  
+**design the solution**  
+↓  
+**build the system**  
+↓  
+**automate what makes sense**  
+↓  
+**turn data into something useful**
 
 <br>
 
 ୨୧ ˚₊‧ ♡ ‧₊˚ ୨୧
 
 </div>
-<div align="center">
-୨୧ ♡ currently ♡ ୨୧
 
-I'm currently building PRISMA while continuing to grow as a
-Systems Analyst · Software Developer · Automation & Data enthusiast
+---
+
+<div align="center">
+
+## ୨୧ ♡ `currently` ♡ ୨୧
+
+I'm currently building **PRISMA** while continuing to grow as a  
+**Systems Analyst · Software Developer · Automation & Data enthusiast**
 
 <br>
 
-SaaS · Backend · Data · Automation · BI · AI
+`SaaS` · `Backend` · `Data` · `Automation` · `BI` · `AI`
 
 <br><br>
 
-building things that are useful, beautiful & actually work
+> *building things that are useful, beautiful & actually work*
 
 <br>
 
 🎀 ˚₊‧♡‧₊˚ 🎀
 
-Let's build something useful.
+### **Let's build something useful.**
 
-📍 Oberá, Misiones, Argentina
-♡ Open to Remote Opportunities
+📍 **Oberá, Misiones, Argentina**  
+♡ **Open to Remote Opportunities**
 
-</div> ```
+</div>
