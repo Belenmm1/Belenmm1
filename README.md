@@ -37,6 +37,38 @@ My work sits at the intersection of:
 
 </div>
 
+## ୨୧ ─── ♡ `professional experience` ♡ ─── ୨୧
+
+My professional experience has allowed me to work across **data management,
+technical support, business operations and technology**, gradually moving
+towards more technical and systems-oriented responsibilities.
+
+### 🎀 Data Management & Technical Support
+
+Working with operational data, internal systems, technical support and
+process improvement, with a focus on keeping information accurate,
+structured and useful.
+
+### 🌸 Business & Administrative Operations
+
+Experience working with business processes, operational information,
+ERP systems and day-to-day administrative workflows.
+
+### ☁️ Automation & Systems
+
+Building automations, integrations and digital workflows to reduce
+repetitive work and improve internal processes.
+
+### 📊 Data & Business Intelligence
+
+Working with structured data, SQL, reporting and operational metrics
+to transform business information into something useful for decision-making.
+
+### 🦢 Software Development
+
+Developing backend services, APIs, databases and business applications,
+while continuing to grow as a Systems Analyst and Software Developer.
+
 I enjoy taking something that is **messy, repetitive or scattered** and turning it into a structured digital solution.
 
 That can mean designing a database, building an API, automating a workflow, developing a business application, analyzing operational data or turning an idea into a working SaaS product.
