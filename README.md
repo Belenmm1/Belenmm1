@@ -340,7 +340,7 @@ Exploring practical applications of LLMs, RAG and automation.
 
 **Microverse**
 
-### **English Teaching Degree**
+### **English Teaching Degree *not finished* **
 
 **Instituto Carlos Linneo**
 
@@ -358,31 +358,30 @@ Building **real software products** and exploring the intersection between:
 
 My current focus is **PRISMA**, while continuing to grow as a **Systems Analyst and Software Developer**.
 
-I like working through the entire process:
-
-```text
-understand the problem
-        ↓
-structure the information
-        ↓
-design the solution
-        ↓
-build the system
-        ↓
-automate what makes sense
-        ↓
-turn data into something useful
-
-
 <div align="center">
-୨୧ ♡ let's build something useful ♡ ୨୧
 
-Oberá, Misiones, Argentina · Open to remote opportunities
+## ୨୧ ♡ how I like to work ♡ ୨୧
+
+**understand the problem**  
+↓  
+**structure the information**  
+↓  
+**design the solution**  
+↓  
+**build the system**  
+↓  
+**automate what makes sense**  
+↓  
+**turn data into something useful**
 
 <br>
 
-🎀 ˚₊‧ ♡ ‧₊˚ 🎀
+🎀 ˚₊‧♡‧₊˚ 🎀
 
-building things that are useful, beautiful & actually work
+### ୨୧ ♡ let's build something useful ♡ ୨୧
 
-</div> ```
+**Oberá, Misiones, Argentina · Open to remote opportunities**
+
+*building things that are useful, beautiful & actually work*
+
+</div>
