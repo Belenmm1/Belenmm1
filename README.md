@@ -3,16 +3,16 @@
 # ୨୧ ─── ♡ 🎀 `Hi, I'm Belén` 🎀 ♡ ─── ୨୧
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=20&pause=1000&color=D8A7B1&center=true&vcenter=true&width=500&lines=Systems+Analyst;Software+Developer;Automation+%26+Data+Enthusiast;Building+useful+%26+beautiful+things..." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Cinzel&weight=600&size=20&pause=1000&color=FBA4BD&center=true&vcenter=true&width=500&lines=Systems+Analyst;Software+Developer;Automation+%26+Data+Enthusiast;Building+useful+%26+beautiful+things..." alt="Typing SVG" />
 </p>
 
 *✨ building useful things with code, data & a touch of creativity ✨*
 
 <br>
 
-[![Portfolio](https://img.shields.io/badge/%E2%99%A1%20portfolio-E8C5C8?style=for-the-badge&logo=github&logoColor=4A3E3D)](https://belenmm1.github.io/Belenmm1/)
-[![LinkedIn](https://img.shields.io/badge/%E2%99%A1%20linkedin-D8A7B1?style=for-the-badge&logo=linkedin&logoColor=FFFFFF)](https://www.linkedin.com/in/milde-belen-847560212)
-[![Email](https://img.shields.io/badge/%E2%99%A1%20email-B67B84?style=for-the-badge&logo=gmail&logoColor=FFFFFF)](mailto:belen0010mm@gmail.com)
+[![Portfolio](https://img.shields.io/badge/%E2%99%A1%20portfolio-D85A7F?style=for-the-badge&logo=github&logoColor=FFF1F5)](https://belenmm1.github.io/Belenmm1/)
+[![LinkedIn](https://img.shields.io/badge/%E2%99%A1%20linkedin-FBA4BD?style=for-the-badge&logo=linkedin&logoColor=372629)](https://www.linkedin.com/in/milde-belen-847560212)
+[![Email](https://img.shields.io/badge/%E2%99%A1%20email-372629?style=for-the-badge&logo=gmail&logoColor=FBA4BD)](mailto:belen0010mm@gmail.com)
 
 <br>
 
@@ -75,7 +75,7 @@ PRISMA is a vertical SaaS product developed within **VECTOR**, designed specific
 
 ---
 
-## ୨୧ ─── ♡ `selected projects` ♡ ─── 抖
+## ୨୧ ─── ♡ `selected projects` ♡ ─── ୨୧
 
 ### 🩰 MediGest · *Hospital Information System*
 A complete, end-to-end hospital management system engineered to streamline complex healthcare workflows.
@@ -85,9 +85,9 @@ A complete, end-to-end hospital management system engineered to streamline compl
 * 🌸 **Modules:** Patients, Appointments, Clinical History, Beds, Audit & Real-time Alerts.
 
 <p align="left">
-  <a href="https://github.com/Belenmm1/medigest-backend"><img src="https://img.shields.io/badge/♡%20backend-E8C5C8?style=flat-square&logo=github&logoColor=4A3E3D"/></a>
-  <a href="https://github.com/Belenmm1/medigest-MANAGMENT-SYSTEM"><img src="https://img.shields.io/badge/♡%20frontend-D8A7B1?style=flat-square&logo=github&logoColor=FFF"/></a>
-  <a href="https://medigest-managment-system-production.up.railway.app/"><img src="https://img.shields.io/badge/♡%20live%20demo-B67B84?style=flat-square&logo=googlechrome&logoColor=FFF"/></a>
+  <a href="https://github.com/Belenmm1/medigest-backend"><img src="https://img.shields.io/badge/♡%20backend-D85A7F?style=flat-square&logo=github&logoColor=FFF1F5"/></a>
+  <a href="https://github.com/Belenmm1/medigest-MANAGMENT-SYSTEM"><img src="https://img.shields.io/badge/♡%20frontend-FBA4BD?style=flat-square&logo=github&logoColor=372629"/></a>
+  <a href="https://medigest-managment-system-production.up.railway.app/"><img src="https://img.shields.io/badge/♡%20live%20demo-372629?style=flat-square&logo=googlechrome&logoColor=FBA4BD"/></a>
 </p>
 
 ### 📜 DocuFlow · *Document Management & Workflow System*
@@ -95,7 +95,7 @@ Platform designed to replace fragmented manual document processes with version c
 
 * ☁️ **Tech:** `Node.js` · `JavaScript` · `PostgreSQL` · `REST API`
 <p align="left">
-  <a href="https://github.com/Belenmm1/DocuFlow-proyect"><img src="https://img.shields.io/badge/♡%20repository-D8A7B1?style=flat-square&logo=github&logoColor=FFF"/></a>
+  <a href="https://github.com/Belenmm1/DocuFlow-proyect"><img src="https://img.shields.io/badge/♡%20repository-D85A7F?style=flat-square&logo=github&logoColor=FFF1F5"/></a>
 </p>
 
 ---
@@ -110,6 +110,18 @@ Platform designed to replace fragmented manual document processes with version c
 | **Frontend** | <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,html,css" height="30" /> <br> `React` · `Next.js` · `TypeScript` · `JavaScript` · `HTML5` · `CSS3` |
 | **Data, AI & Automation** | <img src="https://skillicons.dev/icons?i=postgres,mysql,python,docker" height="30" /> <br> `SQL` · `PostgreSQL` · `MySQL` · `n8n` · `LangChain` · `RAG` · `LLMs` |
 | **DevOps & Tools** | <img src="https://skillicons.dev/icons?i=docker,git,github,githubactions,vercel,supabase,postman" height="30" /> <br> `Docker` · `Git` · `GitHub Actions` · `Vercel` · `Supabase` · `Postman` |
+
+</div>
+
+---
+
+## 🌸 ─── ♡ `github stats` ♡ ─── 🌸
+
+<div align="center">
+
+<img height="160" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&bg_color=372629&title_color=FBA4BD&text_color=FFF1F5&icon_color=D85A7F&border_color=D85A7F&hide_border=false" />
+
+<img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&bg_color=372629&title_color=FBA4BD&text_color=FFF1F5&icon_color=D85A7F&border_color=D85A7F&hide_border=false" />
 
 </div>
 
