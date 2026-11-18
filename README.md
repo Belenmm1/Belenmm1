@@ -1,14 +1,13 @@
-<div align="center">୨୧ ─── ♡ 🎀 Hi, I'm Belén 🎀 ♡ ─── ୨୧
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1000&color=D98AB8&center=true&vCenter=true&width=650&lines=Backend+%26+Systems+Developer;Data+Integration+%26+AI+Automation;Building+useful+things+with+code+%26+creativity" alt="Typing SVG" />✨ building useful things with code, data & a touch of creativity ✨
-
-<a href="https://belenmm1.github.io/Belenmm1/"><img src="https://img.shields.io/badge/Portfolio-Visit-D98AB8?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/milde-bel%C3%A9n-847560212/"><img src="https://img.shields.io/badge/LinkedIn-Connect-CB91B8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:belen0010mm@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E8A8C8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-
-Backend & Systems Developer · Data Integration · AI Automation
-
-📍 Oberá, Misiones, Argentina · ♡ Open to remote opportunities
-</div>୨୧ ─── ♡ about me ♡ ─── ୨୧
+<p align="center">
+  <strong>୨୧ ─── ♡ 🎀 Hi, I'm Belén 🎀 ♡ ─── ୨୧</strong>
+</p><p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1000&color=D98AB8&center=true&vCenter=true&width=650&lines=Backend+%26+Systems+Developer;Data+Integration+%26+AI+Automation;Building+useful+things+with+code+%26+creativity" alt="Typing SVG" />
+</p><p align="center"><em>✨ building useful things with code, data &amp; a touch of creativity ✨</em></p><p align="center">
+  <a href="https://belenmm1.github.io/Belenmm1/"><img src="https://img.shields.io/badge/Portfolio-Visit-D98AB8?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://www.linkedin.com/in/milde-bel%C3%A9n-847560212/"><img src="https://img.shields.io/badge/LinkedIn-Connect-CB91B8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:belen0010mm@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E8A8C8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p><p align="center"><strong>Backend &amp; Systems Developer · Data Integration · AI Automation</strong></p>
+<p align="center">📍 Oberá, Misiones, Argentina · ♡ Open to remote opportunities</p>୨୧ ─── ♡ about me ♡ ─── ୨୧
 "Turning real-world operational problems into structured, useful, and elegant digital solutions."
 
 I'm a Systems Analyst finishing my final exams and a backend / full-stack developer who loves building software that solves real operational problems: integrating systems that don't talk to each other, automating repetitive work and turning scattered information into something useful.
@@ -129,9 +128,9 @@ The problem isn't always a lack of information. It's the lack of structure.
 
 VECTOR aims to bridge that gap by building technology around the way businesses actually operate.
 🎀 ─── ♡ tech stack ♡ ─── 🎀
-<div align="center"><img src="https://skillicons.dev/icons?i=python,nodejs,express,react,nextjs,ts,js,html,css,tailwind,postgres,mysql,supabase,docker,git,githubactions,vercel,linux&perline=9" alt="Technology stack icons" />
-FastAPI · REST APIs · WebSockets · SQLAlchemy · Alembic · n8n · Webhooks · Redis · Celery · OpenAI · Anthropic · Gemini · Ollama · RAG · FAISS · LangChain
-</div>🌸 ─── ♡ what I like building ♡ ─── 🌸
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,nodejs,express,react,nextjs,ts,js,html,css,tailwind,postgres,mysql,supabase,docker,git,githubactions,vercel,linux&perline=9" alt="Technology stack icons" />
+</p><p align="center">`FastAPI` · `REST APIs` · `WebSockets` · `SQLAlchemy` · `Alembic` · `n8n` · `Webhooks` · `Redis` · `Celery` · `OpenAI` · `Anthropic` · `Gemini` · `Ollama` · `RAG` · `FAISS` · `LangChain`</p>🌸 ─── ♡ what I like building ♡ ─── 🌸
 🎀 Business Applications
 Systems that make everyday operations simpler, more organized and easier to understand.
 ♡ Backend & APIs
@@ -145,8 +144,8 @@ Building software around real problems, real users and real workflows.
 🤖 AI & Intelligent Systems
 Exploring practical applications of LLMs, RAG, LangChain and automation.
 ୨୧ ─── ♡ github stats ♡ ─── ୨୧
-<div align="center"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&hide_border=true&title_color=D98AB8&icon_color=D98AB8&text_color=6B5B66&bg_color=FFF9FC" alt="Belén's GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&langs_count=8&hide_border=true&title_color=D98AB8&text_color=6B5B66&bg_color=FFF9FC" alt="Most used programming languages" /></div>୨୧ ─── ♡ education ♡ ─── ୨୧
+<p align="center"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&hide_border=true&title_color=D98AB8&icon_color=D98AB8&text_color=6B5B66&bg_color=FFF9FC" alt="Belén's GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&langs_count=8&hide_border=true&title_color=D98AB8&text_color=6B5B66&bg_color=FFF9FC" alt="Most used programming languages" /></p>୨୧ ─── ♡ education ♡ ─── ୨୧
 🎓 Systems Analyst
 IPESMI · coursework completed, finishing final exams
 
@@ -158,7 +157,7 @@ Microverse · 2022
 
 📚 English Teaching Degree
 Instituto Carlos Linneo · 2022
-<div align="center">🎀 ─── ♡ how I like to work ♡ ─── 🎀
+🎀 ─── ♡ how I like to work ♡ ─── 🎀
 understand the problem
 ↓
 structure the information
@@ -184,4 +183,3 @@ building things that are useful, beautiful & actually work
 Let's build something useful.
 📍 Oberá, Misiones, Argentina
 ♡ Open to Remote Opportunities
-</div>
