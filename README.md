@@ -1,98 +1,63 @@
-୨୧ ─── ♡ 🎀 Hi, I'm Belén 🎀 ♡ ─── ୨୧
-<div align="center">
+<div align="center">୨୧ ─── ♡ 🎀 Hi, I'm Belén 🎀 ♡ ─── ୨୧
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&pause=1000&color=D98AB8&center=true&vCenter=true&width=650&lines=Backend+%26+Systems+Developer;Data+Integration+%26+AI+Automation;Building+useful+things+with+code+%26+creativity" alt="Typing SVG" />✨ building useful things with code, data & a touch of creativity ✨
 
-Typing SVG
+<a href="https://belenmm1.github.io/Belenmm1/"><img src="https://img.shields.io/badge/Portfolio-Visit-D98AB8?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/milde-bel%C3%A9n-847560212/"><img src="https://img.shields.io/badge/LinkedIn-Connect-CB91B8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:belen0010mm@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-E8A8C8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
-✨ building useful things with code, data & a touch of creativity ✨
+Backend & Systems Developer · Data Integration · AI Automation
 
-Portfolio LinkedIn Email
-
-</div>
-
-Mostrar imagen
-
-୨୧ ─── ♡ about me ♡ ─── ୨୧
-
+📍 Oberá, Misiones, Argentina · ♡ Open to remote opportunities
+</div>୨୧ ─── ♡ about me ♡ ─── ୨୧
 "Turning real-world operational problems into structured, useful, and elegant digital solutions."
 
-I'm a Systems Analyst finishing my degree and a backend / full-stack developer who loves building software that solves real operational problems: integrating systems that don't talk to each other, automating repetitive work and turning scattered information into something useful.
+I'm a Systems Analyst finishing my final exams and a backend / full-stack developer who loves building software that solves real operational problems: integrating systems that don't talk to each other, automating repetitive work and turning scattered information into something useful.
 
 My work sits at the intersection of:
 
 🎀 Backend & APIs · 🌸 Data Integration · 📑 Business Processes
 ☁️ Automation · 🕯️ Systems Analysis · 🦢 AI & Intelligent Systems
-
-📍 Oberá, Misiones, Argentina · ♡ Open to remote opportunities
-
 ୨୧ ─── ♡ professional experience ♡ ─── ୨୧
-
-My professional experience has allowed me to grow from data management and business operations into more technical and systems-oriented work, combining technology with a strong understanding of how businesses actually operate.
-
-🎀 Data Management & Technical Support
-
-Experience working with operational data, internal systems and technical support, helping maintain accurate information and resolve day-to-day technology and process-related issues.
-
-🌸 Business Operations & Administrative Systems
-
-Experience working with business processes, operational information and ERP systems, gaining a practical understanding of how technology supports everyday business operations.
-
+My experience combines business operations, systems analysis, software development and automation. I focus on understanding how an organization works, identifying information gaps and building practical technology around real workflows.
+🎀 Systems Analysis & Software Development
+Designing and implementing backend services, APIs, relational databases and business applications, from requirements gathering and data modeling through development and operational use.
+🌸 Business Systems & Data Integration
+Connecting business platforms, structuring operational information and creating traceability across systems, including sources that do not expose conventional APIs or direct database access.
 ☁️ Automation & Process Improvement
-
-Identifying repetitive or inefficient workflows and exploring ways to automate, integrate and simplify processes using tools such as n8n, APIs, webhooks and custom solutions.
-
+Replacing repetitive manual workflows with scheduled processes, APIs, webhooks and n8n automations that improve consistency and reduce scattered information.
 📊 Data & Business Intelligence
-
-Working with SQL, databases, structured data, reporting and operational metrics, with a focus on transforming raw business information into something useful for analysis and decision-making.
-
-🦢 Software Development & Systems
-
-Building backend services, APIs, databases and business applications, while applying systems analysis to understand requirements, structure information and design practical solutions.
-
+Working with SQL, PostgreSQL, MySQL, operational metrics and reporting to turn raw business data into useful information for analysis and decision-making.
 ♡ My professional approach
-
-I don't see technology as something isolated from the business.
-
-I like understanding why a process exists, where information comes from, how different systems connect and what could be improved before deciding what technology should be used.
-
+I don't see technology as something isolated from the business. I like understanding why a process exists, where information comes from, how different systems connect and what could be improved before deciding what technology should be used.
 understand the process → identify the problem → structure the information → design the solution → build & automate → measure the result
-
-This combination of systems analysis, software development, data and business understanding is the direction in which I'm continuing to grow professionally.
 
 ୨୧ ─── ♡ featured projects ♡ ─── ୨୧
 🎀 VECTOR Centro de Datos · Operational Data Integration Platform
-
-Designed and built independently, from my own requirements survey at TDS Misiones.
+Designed and built independently, based on my own requirements survey at TDS Misiones.
 
 One platform that unifies three business systems into a single PostgreSQL environment:
-
 ♡	System	What it provides
 👥	Naaloo	HR, geolocated clock-in / clock-out
 🧾	Geest	Work orders, quotes, service scheduling, payroll, expenses & income
 🚚	Obersat	Satellite vehicle tracking
 
+
 Geest exposes neither a database nor an API, so its data is extracted and normalized with n8n workflows, with historical records, audit trails and traceability across all three sources.
 
-The frontend is built with React 19 + TypeScript, backed by protected serverless API routes with session auth, role-based permissions, user management, exports and audit events.
+The frontend is built with React 19 + TypeScript, backed by protected serverless API routes with session authentication, role-based permissions, user management, exports and audit events.
 
 Modules: Control Center · Traceability · Expenses · Team · Calendar · Audit · Analytics
 
 React 19 · TypeScript · Vite · Tailwind · PostgreSQL · n8n
 
-♡ repository-D85A7F
-
+Repository available upon request.
 🎀 ˚₊‧ ୨୧ PRISMA ୨୧ ‧₊˚ 🎀
 Vertical SaaS for Beauty & Aesthetics Businesses
-
-" Less scattered information ♡ More operational control ♡ Better decisions "
+"Less scattered information ♡ More operational control ♡ Better decisions"
 
 PRISMA is a vertical SaaS product developed within VECTOR, designed specifically for beauty salons, aesthetics centers and independent professionals.
 
-The idea started from a simple observation:
-
-Many small businesses manage appointments, clients, sales and cash using a combination of WhatsApp, notebooks and spreadsheets.
-
-PRISMA brings these everyday workflows together into a centralized business system.
-
+Many small businesses manage appointments, clients, sales and cash using a combination of WhatsApp, notebooks and spreadsheets. PRISMA brings these everyday workflows together into a centralized business system.
 ୨୧ What PRISMA manages
 ♡	Module	Purpose
 📅	Agenda	Appointments & daily scheduling
@@ -100,151 +65,88 @@ PRISMA brings these everyday workflows together into a centralized business syst
 🛍️	Sales	Sales & payment management
 💌	Cash	Daily cash control
 📊	Reports	Business metrics & operational insights
-🌸 Product Status
 
-🟢 REAL PRODUCT · 8 LOCAL CLIENTS · CONTINUOUS DEVELOPMENT
 
-Every client was found, pitched and closed by me in person, from the first conversation to onboarding. PRISMA is being developed, deployed and improved for real businesses in Oberá, Misiones, Argentina.
+🌸 Product status
+<img src="https://img.shields.io/badge/REAL_PRODUCT-8_LOCAL_CLIENTS-D98AB8?style=for-the-badge" alt="Real product · 8 local clients" />Every client was found, pitched and closed by me in person, from the first conversation to onboarding. PRISMA is being developed, deployed and improved for real businesses in Oberá, Misiones, Argentina.
 
-The product evolves through:
+The product evolves through real operational needs · user feedback · continuous iteration.
 
-real operational needs · user feedback · continuous iteration
-
-This is not simply a portfolio project.
-
-It's a real SaaS product being built, deployed and improved for real businesses.
-
+This is not simply a portfolio project. It's a real SaaS product being built, deployed and improved for real businesses.
 ♡ The idea behind PRISMA
-
-PRISMA is not only about storing appointments or registering sales.
-
-It is designed to create a centralized source of operational information that can later become useful business intelligence.
-
+PRISMA is designed to create a centralized source of operational information that can later become useful business intelligence.
 appointments
-      ↓
+     ↓
 clients & services
-      ↓
+     ↓
 sales & payments
-      ↓
+     ↓
 cash movement
-      ↓
+     ↓
 structured business data
-      ↓
+     ↓
 reports & insights
-
-The goal is:
-
 collect useful information → organize it → understand it → make better decisions
 
-This approach also creates a foundation for future automation, analytics and AI-powered capabilities.
+React · Next.js · TypeScript · PostgreSQL · Supabase · Vercel · REST APIs · n8n · Webhooks
 
-🎀 PRISMA · Technology
-
-icons
-
-React · Next.js · TypeScript
-
-PostgreSQL · Supabase · Vercel
-
-REST APIs · n8n · Webhooks · Git · Database Design
-
+Product code is not linked publicly at the moment.
 ☁️ DocuFlow · Intelligent Document Processing SaaS
-
 Asynchronous analysis of PDFs, Word documents and spreadsheets with AI pipelines: document classification, RAG-based document chat, FAISS semantic search, OCR fallback and AI-assisted comparison.
 
-A multi-service application (API, worker and Next.js frontend) with JWT auth, Stripe payments, Alembic migrations, plan-based limits, Spanish/English localization and CI/CD on Railway.
+A multi-service application (API, worker and Next.js frontend) with JWT authentication, Stripe payments, Alembic migrations, plan-based limits, Spanish/English localization and CI/CD on Railway.
 
 FastAPI · PostgreSQL · Redis · Celery · Docker · Next.js · OpenAI · Anthropic · Gemini · Ollama
 
-♡ repository-D85A7F
-
+♡ View DocuFlow repository
 🦢 MediGest · Clinical Management System
-
 A bilingual hospital management system built end-to-end as an individual project: JWT-authenticated real-time WebSockets, five-level triage, an OpenFDA drug-interaction checker, PDF record export and audit logging.
 
 Backend: Node.js · Express · PostgreSQL · Redis · JWT · WebSockets
-
 Frontend: JavaScript ES6+ · HTML5 · CSS3
 
 Modules: Patients · Appointments · Clinical History · Beds · Pharmacology · Audit · Authentication · Real-time Communications
 
-♡ backend-D85A7F ♡ frontend-FBA4BD ♡ live demo-372629
-
+♡ Backend repository · ♡ Frontend repository · ♡ Live demo
 📚 Cursos Online · University Enrollment System
-
 Python / PyQt5 desktop application with MVC architecture, four modules, enrollment-cap rules, data validation, JSON persistence and real-time progress statistics.
 
-♡ repository-D85A7F
-
+♡ View Cursos Online repository
 ୨୧ ─── ♡ VECTOR ♡ ─── ୨୧
 Technology · SaaS · Automation · BI · AI
-
 VECTOR is the multi-product software ecosystem I founded to create practical digital products for businesses in the NEA region of Argentina, combining software, automation, data and AI to solve specific operational problems.
-
-🎀 Vector Prisma · data-registration SaaS for beauty & aesthetics, in production
-🌸 Vector Flux · operational workflow with staff PIN access and KPI dashboard
-☁️ Vector Lab · automation, BI and geographic prospecting
-📅 Vector Vita & Vector Zen · practice-management and agenda products, in development
-
+- 🎀 Vector Prisma · data-registration SaaS for beauty & aesthetics, in production
+- 🌸 Vector Flux · operational workflow with staff PIN access and KPI dashboard
+- ☁️ Vector Lab · automation, BI and geographic prospecting
+- 📅 Vector Vita & Vector Zen · practice-management and agenda products, in development
 The broader vision is to create specialized systems for different industries while sharing a common philosophy:
 
 simple interfaces · centralized information · automation · useful data · better decisions
-
 ୨୧ Why VECTOR exists
+Small and medium-sized businesses often have the information they need — but it is scattered across different tools: WhatsApp · Spreadsheets · Notebooks · Separate payment records · Manual processes.
 
-Small and medium-sized businesses often have the information they need — but it is scattered across different tools.
-
-WhatsApp · Spreadsheets · Notebooks
-Separate payment records · Manual processes
-
-The problem isn't always a lack of information.
-
-It's the lack of structure.
+The problem isn't always a lack of information. It's the lack of structure.
 
 VECTOR aims to bridge that gap by building technology around the way businesses actually operate.
-
 🎀 ─── ♡ tech stack ♡ ─── 🎀
-Category	Skills & Tools
-Backend & APIs	Mostrar imagen
-Python · FastAPI · Node.js · Express · REST APIs · WebSockets · Celery · Redis
-Frontend	Mostrar imagen
-React · Next.js · TypeScript · Vite · Tailwind CSS · JavaScript · HTML5 · CSS3
-Data & Automation	Mostrar imagen
-SQL · PostgreSQL · MySQL · Supabase · n8n · Webhooks · Alembic · Data Analysis · BI
-AI & Intelligent Systems	OpenAI · Anthropic · Gemini · Ollama · RAG · FAISS · LangChain · LLMs
-DevOps & Tools	Mostrar imagen
-Docker · Git · GitHub Actions · CI/CD · Railway · Vercel · Linux · Postman
-🌸 ─── ♡ what I like building ♡ ─── 🌸
+<div align="center"><img src="https://skillicons.dev/icons?i=python,nodejs,express,react,nextjs,ts,js,html,css,tailwind,postgres,mysql,supabase,docker,git,githubactions,vercel,linux&perline=9" alt="Technology stack icons" />
+FastAPI · REST APIs · WebSockets · SQLAlchemy · Alembic · n8n · Webhooks · Redis · Celery · OpenAI · Anthropic · Gemini · Ollama · RAG · FAISS · LangChain
+</div>🌸 ─── ♡ what I like building ♡ ─── 🌸
 🎀 Business Applications
-
 Systems that make everyday operations simpler, more organized and easier to understand.
-
 ♡ Backend & APIs
-
 Services, databases and integrations that provide the foundation for useful applications.
-
 ୨୧ Automation
-
 Replacing repetitive manual workflows with reliable automated processes.
-
 📊 Data & Business Intelligence
-
 Turning operational data into information that can support better decisions.
-
 ☁️ SaaS Products
-
 Building software around real problems, real users and real workflows.
-
 🤖 AI & Intelligent Systems
-
 Exploring practical applications of LLMs, RAG, LangChain and automation.
-
 ୨୧ ─── ♡ github stats ♡ ─── ୨୧
-
-api github-readme-stats.vercel.app
-
-୨୧ ─── ♡ education ♡ ─── ୨୧
-
+<div align="center"><img height="165" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&hide_border=true&title_color=D98AB8&icon_color=D98AB8&text_color=6B5B66&bg_color=FFF9FC" alt="Belén's GitHub statistics" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&langs_count=8&hide_border=true&title_color=D98AB8&text_color=6B5B66&bg_color=FFF9FC" alt="Most used programming languages" /></div>୨୧ ─── ♡ education ♡ ─── ୨୧
 🎓 Systems Analyst
 IPESMI · coursework completed, finishing final exams
 
@@ -256,11 +158,7 @@ Microverse · 2022
 
 📚 English Teaching Degree
 Instituto Carlos Linneo · 2022
-
-Mostrar imagen
-
-🎀 ─── ♡ how I like to work ♡ ─── 🎀
-
+<div align="center">🎀 ─── ♡ how I like to work ♡ ─── 🎀
 understand the problem
 ↓
 structure the information
@@ -274,19 +172,16 @@ automate what makes sense
 turn data into something useful
 
 ୨୧ ˚₊‧ ♡ ‧₊˚ ୨୧
-
 ୨୧ ♡ currently ♡ ୨୧
-
 I'm building VECTOR (Prisma, Flux and Lab) while finishing my Systems Analyst degree and continuing to grow as a
+
 Backend Developer · Systems Analyst · Automation & Data enthusiast
 
 SaaS · Backend · Data Integration · Automation · AI
-
 building things that are useful, beautiful & actually work
 
 🎀 ˚₊‧♡‧₊˚ 🎀
-
 Let's build something useful.
-
 📍 Oberá, Misiones, Argentina
 ♡ Open to Remote Opportunities
+</div>
