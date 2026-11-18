@@ -24,11 +24,39 @@ My work sits at the intersection of:
 
 📍 Oberá, Misiones, Argentina · ♡ Open to remote opportunities
 
+୨୧ ─── ♡ professional experience ♡ ─── ୨୧
+
+My professional experience has allowed me to grow from data management and business operations into more technical and systems-oriented work, combining technology with a strong understanding of how businesses actually operate.
+
+🎀 Data Management & Technical Support
+
+Experience working with operational data, internal systems and technical support, helping maintain accurate information and resolve day-to-day technology and process-related issues.
+
+🌸 Business Operations & Administrative Systems
+
+Experience working with business processes, operational information and ERP systems, gaining a practical understanding of how technology supports everyday business operations.
+
+☁️ Automation & Process Improvement
+
+Identifying repetitive or inefficient workflows and exploring ways to automate, integrate and simplify processes using tools such as n8n, APIs, webhooks and custom solutions.
+
+📊 Data & Business Intelligence
+
+Working with SQL, databases, structured data, reporting and operational metrics, with a focus on transforming raw business information into something useful for analysis and decision-making.
+
+🦢 Software Development & Systems
+
+Building backend services, APIs, databases and business applications, while applying systems analysis to understand requirements, structure information and design practical solutions.
+
 ♡ My professional approach
 
-I don't see technology as something isolated from the business. I like understanding why a process exists, where information comes from, how systems connect and what could be improved before deciding what to build.
+I don't see technology as something isolated from the business.
+
+I like understanding why a process exists, where information comes from, how different systems connect and what could be improved before deciding what technology should be used.
 
 understand the process → identify the problem → structure the information → design the solution → build & automate → measure the result
+
+This combination of systems analysis, software development, data and business understanding is the direction in which I'm continuing to grow professionally.
 
 ୨୧ ─── ♡ featured projects ♡ ─── ୨୧
 🎀 VECTOR Centro de Datos · Operational Data Integration Platform
@@ -52,26 +80,73 @@ React 19 · TypeScript · Vite · Tailwind · PostgreSQL · n8n
 
 ♡ repository-D85A7F
 
-🌸 PRISMA · Vertical SaaS for Beauty & Aesthetics Businesses
+🎀 ˚₊‧ ୨୧ PRISMA ୨୧ ‧₊˚ 🎀
+Vertical SaaS for Beauty & Aesthetics Businesses
 
 " Less scattered information ♡ More operational control ♡ Better decisions "
 
-PRISMA is a vertical SaaS product developed within VECTOR for beauty salons, aesthetics centers and independent professionals.
+PRISMA is a vertical SaaS product developed within VECTOR, designed specifically for beauty salons, aesthetics centers and independent professionals.
 
-🟢 REAL PRODUCT · 8 LOCAL CLIENTS · CONTINUOUS DEVELOPMENT
+The idea started from a simple observation:
 
-Every client was found, pitched and closed by me in person, from the first conversation to onboarding. It replaces the usual mix of WhatsApp, notebooks and spreadsheets with one centralized system.
+Many small businesses manage appointments, clients, sales and cash using a combination of WhatsApp, notebooks and spreadsheets.
 
+PRISMA brings these everyday workflows together into a centralized business system.
+
+୨୧ What PRISMA manages
 ♡	Module	Purpose
 📅	Agenda	Appointments & daily scheduling
 ♡	Clients	Client records & service history
 🛍️	Sales	Sales & payment management
 💌	Cash	Daily cash control
 📊	Reports	Business metrics & operational insights
-appointments → clients & services → sales & payments → cash movement
-      → structured business data → reports & insights
+🌸 Product Status
 
-React · Next.js · TypeScript · PostgreSQL · Supabase · Vercel
+🟢 REAL PRODUCT · 8 LOCAL CLIENTS · CONTINUOUS DEVELOPMENT
+
+Every client was found, pitched and closed by me in person, from the first conversation to onboarding. PRISMA is being developed, deployed and improved for real businesses in Oberá, Misiones, Argentina.
+
+The product evolves through:
+
+real operational needs · user feedback · continuous iteration
+
+This is not simply a portfolio project.
+
+It's a real SaaS product being built, deployed and improved for real businesses.
+
+♡ The idea behind PRISMA
+
+PRISMA is not only about storing appointments or registering sales.
+
+It is designed to create a centralized source of operational information that can later become useful business intelligence.
+
+appointments
+      ↓
+clients & services
+      ↓
+sales & payments
+      ↓
+cash movement
+      ↓
+structured business data
+      ↓
+reports & insights
+
+The goal is:
+
+collect useful information → organize it → understand it → make better decisions
+
+This approach also creates a foundation for future automation, analytics and AI-powered capabilities.
+
+🎀 PRISMA · Technology
+
+icons
+
+React · Next.js · TypeScript
+
+PostgreSQL · Supabase · Vercel
+
+REST APIs · n8n · Webhooks · Git · Database Design
 
 ☁️ DocuFlow · Intelligent Document Processing SaaS
 
@@ -87,7 +162,11 @@ FastAPI · PostgreSQL · Redis · Celery · Docker · Next.js · OpenAI · Anthr
 
 A bilingual hospital management system built end-to-end as an individual project: JWT-authenticated real-time WebSockets, five-level triage, an OpenFDA drug-interaction checker, PDF record export and audit logging.
 
-Node.js · Express · PostgreSQL · Redis · JWT · WebSockets
+Backend: Node.js · Express · PostgreSQL · Redis · JWT · WebSockets
+
+Frontend: JavaScript ES6+ · HTML5 · CSS3
+
+Modules: Patients · Appointments · Clinical History · Beds · Pharmacology · Audit · Authentication · Real-time Communications
 
 ♡ backend-D85A7F ♡ frontend-FBA4BD ♡ live demo-372629
 
@@ -100,38 +179,65 @@ Python / PyQt5 desktop application with MVC architecture, four modules, enrollme
 ୨୧ ─── ♡ VECTOR ♡ ─── ୨୧
 Technology · SaaS · Automation · BI · AI
 
-VECTOR is the multi-product software ecosystem I founded to create practical digital products for businesses in Argentina's NEA region, combining software, automation, data and AI to solve specific operational problems.
+VECTOR is the multi-product software ecosystem I founded to create practical digital products for businesses in the NEA region of Argentina, combining software, automation, data and AI to solve specific operational problems.
 
 🎀 Vector Prisma · data-registration SaaS for beauty & aesthetics, in production
 🌸 Vector Flux · operational workflow with staff PIN access and KPI dashboard
 ☁️ Vector Lab · automation, BI and geographic prospecting
 📅 Vector Vita & Vector Zen · practice-management and agenda products, in development
 
-Small and medium businesses often have the information they need, but it is scattered across different tools.
+The broader vision is to create specialized systems for different industries while sharing a common philosophy:
 
-The problem isn't a lack of information.
+simple interfaces · centralized information · automation · useful data · better decisions
 
-It's the lack of structure. VECTOR exists to bridge that gap.
+୨୧ Why VECTOR exists
+
+Small and medium-sized businesses often have the information they need — but it is scattered across different tools.
+
+WhatsApp · Spreadsheets · Notebooks
+Separate payment records · Manual processes
+
+The problem isn't always a lack of information.
+
+It's the lack of structure.
+
+VECTOR aims to bridge that gap by building technology around the way businesses actually operate.
 
 🎀 ─── ♡ tech stack ♡ ─── 🎀
 Category	Skills & Tools
 Backend & APIs	Mostrar imagen
 Python · FastAPI · Node.js · Express · REST APIs · WebSockets · Celery · Redis
 Frontend	Mostrar imagen
-React · Next.js · TypeScript · Vite · Tailwind CSS · JavaScript
+React · Next.js · TypeScript · Vite · Tailwind CSS · JavaScript · HTML5 · CSS3
 Data & Automation	Mostrar imagen
-SQL · PostgreSQL · MySQL · Supabase · n8n · Webhooks · Alembic
-AI & Intelligent Systems	OpenAI · Anthropic · Gemini · Ollama · RAG · FAISS · LangChain
+SQL · PostgreSQL · MySQL · Supabase · n8n · Webhooks · Alembic · Data Analysis · BI
+AI & Intelligent Systems	OpenAI · Anthropic · Gemini · Ollama · RAG · FAISS · LangChain · LLMs
 DevOps & Tools	Mostrar imagen
-Docker · Git · GitHub Actions · CI/CD · Railway · Vercel · Linux
+Docker · Git · GitHub Actions · CI/CD · Railway · Vercel · Linux · Postman
 🌸 ─── ♡ what I like building ♡ ─── 🌸
+🎀 Business Applications
 
-🎀 Business applications · systems that make everyday operations simpler and easier to understand
-♡ Backend & APIs · services, databases and integrations that power useful applications
-୨୧ Automation · replacing repetitive manual workflows with reliable automated processes
-📊 Data & BI · turning operational data into information that supports better decisions
-☁️ SaaS products · software built around real problems, real users and real workflows
-🤖 AI · practical applications of LLMs, RAG and automation
+Systems that make everyday operations simpler, more organized and easier to understand.
+
+♡ Backend & APIs
+
+Services, databases and integrations that provide the foundation for useful applications.
+
+୨୧ Automation
+
+Replacing repetitive manual workflows with reliable automated processes.
+
+📊 Data & Business Intelligence
+
+Turning operational data into information that can support better decisions.
+
+☁️ SaaS Products
+
+Building software around real problems, real users and real workflows.
+
+🤖 AI & Intelligent Systems
+
+Exploring practical applications of LLMs, RAG, LangChain and automation.
 
 ୨୧ ─── ♡ github stats ♡ ─── ୨୧
 
