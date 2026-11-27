@@ -1,4 +1,3 @@
-<!-- ୨୧ ───────────── COQUETTE PROFILE · BELÉN ───────────── ୨୧ -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=transparent&height=125&text=%E2%9C%A7%20%E0%AD%A8%E0%AD%A7%20%E2%99%A1%20Hi%2C%20I%27m%20Bel%C3%A9n%20%E2%99%A1%20%E0%AD%A8%E0%AD%A7%20%E2%9C%A7&font=Playball&fontSize=42&fontColor=F2A7C5&stroke=FCE4EF&strokeWidth=1&animation=twinkling&fontAlignY=55" alt="Twinkling pastel pink coquette title: Hi, I'm Belén" width="100%" />
 </p>
