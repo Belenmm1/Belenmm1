@@ -9,21 +9,28 @@ on:
       - main
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: contribution-snake-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
+    permissions:
+      contents: write
     steps:
-      - name: Generate pastel pink contribution snake
+      - name: Generate pastel pink contribution snakes
         uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: Belenmm1
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=%23D98AB8&color_dots=%23FFF1F7,%23FCE4EF,%23F2A7C5,%23D98AB8,%23B76E98
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=%23F2A7C5&color_dots=%2316121A,%233A2331,%23743D5D,%23B76E98,%23F2A7C5
 
-      - name: Publish snake animation to the output branch
+      - name: Publish the animations to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
