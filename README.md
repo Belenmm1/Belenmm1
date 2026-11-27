@@ -1,3 +1,4 @@
+<!-- ୨୧ PROFILE HEADER · COQUETTE STYLE ୨୧ -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=transparent&height=110&text=%E2%9C%A7%20%E0%AD%A8%E0%AD%A7%20%E2%94%80%E2%94%80%E2%94%80%20%E2%99%A1%20%F0%9F%8E%80%20Hi%2C%20I%27m%20Bel%C3%A9n%20%F0%9F%8E%80%20%E2%99%A1%20%E2%94%80%E2%94%80%E2%94%80%20%E0%AD%A8%E0%AD%A7%20%E2%9C%A7&fontSize=31&fontColor=F2A7C5&stroke=FCE4EF&strokeWidth=1&animation=twinkling&fontAlignY=55" alt="Animated coquette pink header: ୨୧ Hi, I'm Belén 🎀" />
 </p><p align="center">
@@ -6,6 +7,8 @@
   <a href="https://belenmm1.github.io/Belenmm1/"><img src="https://img.shields.io/badge/♡_PORTFOLIO-VISIT-D98AB8?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio" /></a>
   <a href="https://www.linkedin.com/in/milde-bel%C3%A9n-847560212/"><img src="https://img.shields.io/badge/♡_LINKEDIN-CONNECT-CB91B8?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="mailto:belen0010mm@gmail.com"><img src="https://img.shields.io/badge/♡_EMAIL-CONTACT-E8A8C8?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p><p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Belenmm1&label=♡%20PROFILE%20VISITS&color=D98AB8&style=for-the-badge" alt="Profile visit counter" />
 </p><p align="center">
   <strong>Systems Analyst · Backend Developer · Data Integration · AI Automation</strong><br />
   📍 Oberá, Misiones, Argentina · ♡ Open to remote opportunities
@@ -109,6 +112,12 @@ VECTOR aims to bridge that gap by building technology around the way businesses 
 </p><h2 align="center">୨୧ ─── ♡ github stats ♡ ─── ୨୧</h2><p align="center">
   <img height="165" src="https://github-readme-stats.vercel.app/api?username=Belenmm1&show_icons=true&hide_border=true&title_color=D98AB8&icon_color=D98AB8&text_color=F4DCE9&bg_color=0D1117" alt="Belén's GitHub statistics" />
   <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Belenmm1&layout=compact&langs_count=8&hide_border=true&title_color=D98AB8&text_color=F4DCE9&bg_color=0D1117" alt="Most used programming languages" />
+</p><p align="center">
+  <img src="https://streak-stats.demolab.com/?user=Belenmm1&theme=dark&hide_border=true&background=0D1117&ring=F2A7C5&fire=F2A7C5&currStreakLabel=F2A7C5&currStreakNum=FCE4EF&sideLabels=F4DCE9&sideNums=FCE4EF&dates=E8A8C8&stroke=CB91B8&locale=en" alt="GitHub contribution streak in pastel pink" />
+</p><p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Belenmm1&bg_color=0D1117&color=F4DCE9&line=F2A7C5&point=FFFFFF&area_color=D98AB8&title_color=F2A7C5&area=true&hide_border=true&custom_title=My%20GitHub%20Activity&radius=12" alt="GitHub activity graph in coquette pink colors" />
+</p><h2 align="center">୨୧ ─── ♡ my little contribution garden ♡ ─── ୨୧</h2><p align="center"><em>Every little commit makes the garden grow 🌷</em></p><p align="center">
+  <img src="https://raw.githubusercontent.com/Belenmm1/Belenmm1/output/github-contribution-grid-snake.svg" alt="Animated pastel pink snake moving through my GitHub contribution calendar" />
 </p><h2 align="center">୨୧ ─── ♡ education ♡ ─── ୨୧</h2><p align="center">
   🎓 <strong>Systems Analyst</strong><br />IPESMI · Coursework completed, finishing final exams<br /><br />
   🐍 <strong>Python Programming</strong><br />Coderhouse · 2023<br /><br />
@@ -132,4 +141,6 @@ VECTOR aims to bridge that gap by building technology around the way businesses 
   <strong>Let's build something useful.</strong><br />
   📍 Oberá, Misiones, Argentina · ♡ Open to Remote Opportunities<br />
   <a href="https://www.linkedin.com/in/milde-bel%C3%A9n-847560212/">Connect on LinkedIn</a> · <a href="mailto:belen0010mm@gmail.com">Get in touch</a>
+</p><p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FCE4EF,50:F2A7C5,100:D98AB8&height=125&section=footer&text=thank%20you%20for%20visiting%20୨୧&fontSize=22&fontColor=FFFFFF&fontAlignY=65&animation=twinkling" alt="Animated pastel pink coquette footer with twinkling text" />
 </p>
