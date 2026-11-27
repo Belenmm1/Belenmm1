@@ -1,6 +1,6 @@
 <!-- ୨୧ PROFILE HEADER · COQUETTE STYLE ୨୧ -->
 <p align="center">
-  <strong>୨୧ ─── ♡ 🎀 Hi, I'm Belén 🎀 ♡ ─── ୨୧</strong>
+  <img src="https://capsule-render.vercel.app/api?type=transparent&height=110&text=%E2%9C%A7%20%E0%AD%A8%E0%AD%A7%20%E2%94%80%E2%94%80%E2%94%80%20%E2%99%A1%20%F0%9F%8E%80%20Hi%2C%20I%27m%20Bel%C3%A9n%20%F0%9F%8E%80%20%E2%99%A1%20%E2%94%80%E2%94%80%E2%94%80%20%E0%AD%A8%E0%AD%A7%20%E2%9C%A7&fontSize=31&fontColor=F2A7C5&stroke=FCE4EF&strokeWidth=1&animation=twinkling&fontAlignY=55" alt="Animated coquette pink header: ୨୧ Hi, I'm Belén 🎀" />
 </p><p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1000&color=D98AB8&center=true&vCenter=true&width=850&lines=Backend+%26+Systems+Developer;Data+Integration+%26+AI+Automation;Building+useful+things+with+code+%26+creativity" alt="Animated introduction: Backend and Systems Developer, Data Integration and AI Automation, Building useful things with code and creativity" />
 </p><p align="center"><em>✨ building useful things with code, data &amp; a touch of creativity ✨</em></p><p align="center">
